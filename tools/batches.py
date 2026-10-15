@@ -239,8 +239,45 @@ def merge(batch):
     return True
 
 
+def fix(path):
+    """Apply a review-fix TSV (id<TAB>English, any batch; prof = name\\n\\nbody) after checking every line."""
+    fixes = {}
+    for line in Path(path).read_text(encoding='utf-8-sig').splitlines():
+        if line.strip():
+            i, en = line.split('\t', 1)
+            fixes[i.strip()] = en.replace('\\n', '\n').strip()
+    gl, bad, done = glossary(), 0, set()
+    for b in batches():
+        kind, p, _ = entries(b)
+        data = json.loads(p.read_text(encoding='utf-8'))
+        changed = False
+        for e in data:
+            if e['id'] not in fixes or e['id'] in done:
+                continue
+            errs, _ = check_entry(kind, e, fixes[e['id']], gl)
+            if errs:
+                print(f"  {e['id']}: {errs}")
+                bad += 1
+                continue
+            if kind == 'prof':
+                name, _, body = fixes[e['id']].partition('\n\n')
+                e['name'], e['en'] = name.strip(), body.strip()
+            else:
+                e['en'] = fixes[e['id']]
+            e['status'] = 'reviewed'
+            done.add(e['id'])
+            changed = True
+        if changed:
+            p.write_text(json.dumps(data, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
+    missing = set(fixes) - done
+    print(f'fixed {len(done)}, rejected {bad}, unknown {sorted(missing - set())[:10] if missing else 0}')
+    return bad == 0
+
+
 def main():
     a = sys.argv[1:]
+    if a and a[0] == 'fix':
+        return 0 if fix(a[1]) else 1
     if not a or a[0] == 'list':
         for b in batches():
             kind, path, data = entries(b)

@@ -92,14 +92,14 @@
  {
   "id": "ac10_015",
   "jp": "やれやれ、土門殿。%n意外とたいしたこと%n無いでゴザルな。",
-  "en": "Oh dear, Sir Domon. Thou art not so much after all, I daresay.",
-  "status": "tl"
+  "en": "Oh dear, Sir Domon. You are not so much after all, I daresay.",
+  "status": "reviewed"
  },
  {
   "id": "ac10_016",
   "jp": "やっぱり火影の足手まといで%nゴザったか…。",
-  "en": "So thou art dead weight for the Hokage after all...",
-  "status": "tl"
+  "en": "So you were dead weight for the Hokage after all...",
+  "status": "reviewed"
  },
  {
   "id": "ac10_017",
@@ -200,8 +200,8 @@
  {
   "id": "ac10_033",
   "jp": "ストップ！　ストップ！%n拙者でゴザルよ！%n驚かして悪かったでゴザル。",
-  "en": "Stop! Stop! 'Tis I! Forgive this one for startling thee, I daresay.",
-  "status": "tl"
+  "en": "Stop! Stop! It is I! Forgive this one for startling you, I daresay.",
+  "status": "reviewed"
  },
  {
   "id": "ac10_034",
@@ -218,8 +218,8 @@
  {
   "id": "ac10_036",
   "jp": "この先からが本番でゴザル。%n頑張って下され。",
-  "en": "From here on is where the real battle begins. Do thy best.",
-  "status": "tl"
+  "en": "From here on is where the real battle begins. Do your best.",
+  "status": "reviewed"
  },
  {
   "id": "ac10_037",
@@ -884,8 +884,8 @@
  {
   "id": "ac10_147",
   "jp": "攻めも守りも%nたいしたものじゃ！%nこの調子で進めよ、土門！！",
-  "en": "Thy offense and defense are both mighty fine! Keep it up, Domon!!",
-  "status": "tl"
+  "en": "Yer offense and defense are both mighty fine! Keep it up, Domon!!",
+  "status": "reviewed"
  },
  {
   "id": "ac10_148",
@@ -914,7 +914,7 @@
  {
   "id": "ac10_152",
   "jp": "そうすれば、お主の力が%nもっと発揮できるように%nなるはずじゃ！",
-  "en": "Do that, and ye should be able to bring out even more of thy power!",
-  "status": "tl"
+  "en": "Do that, and ye should be able to bring out even more of yer power!",
+  "status": "reviewed"
  }
 ]

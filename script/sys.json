@@ -112,8 +112,8 @@
   "cells": [
    13
   ],
-  "en": "Link error occurred!",
-  "status": "tl",
+  "en": "A link error occurred!",
+  "status": "reviewed",
   "ctx": "link-cable error message"
  },
  {
@@ -193,8 +193,8 @@
   "cells": [
    9
   ],
-  "en": "CD:%BGot it",
-  "status": "tl",
+  "en": "CD:%BFound",
+  "status": "reviewed",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -960,8 +960,8 @@
   "cells": [
    10
   ],
-  "en": "CD:%BGot it!",
-  "status": "tl",
+  "en": "CD:%BFound!",
+  "status": "reviewed",
   "ctx": "story save-info panel (label : value)"
  },
  {

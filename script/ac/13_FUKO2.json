@@ -806,20 +806,20 @@
  {
   "id": "ac13_134",
   "jp": "たいしたものじゃ！%nここまで良く、魔導具を%n使いこなしてきたものじゃ。",
-  "en": "Splendid! You've truly mastered your madogu to come this far.",
-  "status": "tl"
+  "en": "Splendid! Ye've truly mastered yer madogu to come this far.",
+  "status": "reviewed"
  },
  {
   "id": "ac13_135",
   "jp": "お主の風神も%n全ての力を出し切って%nくれるじゃろう！",
-  "en": "Your Fujin will surely bring out every last bit of its power for ye!",
-  "status": "tl"
+  "en": "Yer Fujin will surely bring out every last bit of its power for ye!",
+  "status": "reviewed"
  },
  {
   "id": "ac13_136",
   "jp": "心して進むがよい。%n風子！",
-  "en": "Steel yourself as you go on, Fuko!",
-  "status": "tl"
+  "en": "Steel yerself as ye go on, Fuko!",
+  "status": "reviewed"
  },
  {
   "id": "ac13_137",
@@ -830,19 +830,19 @@
  {
   "id": "ac13_138",
   "jp": "見事強くなったな。%nびっくりする上達ぶりじゃ。%nじゃが一言だけ言っておく！",
-  "en": "You've grown strong indeed. Your progress is astonishing. But let me tell ye just one thing!",
-  "status": "tl"
+  "en": "Ye've grown strong indeed. Yer progress is astonishing. But let me tell ye just one thing!",
+  "status": "reviewed"
  },
  {
   "id": "ac13_139",
   "jp": "煉華相手に情けは無用！%nお主が身につけられる全ての%n必殺技を使って戦うのじゃ！",
-  "en": "Show Renge no mercy! Fight with every special move you can master!",
-  "status": "tl"
+  "en": "Show Renge no mercy! Fight with every special move ye can master!",
+  "status": "reviewed"
  },
  {
   "id": "ac13_140",
   "jp": "魔導具は必ず%nお主の味方になる！%n良いな！",
-  "en": "Your madogu will always be on your side! Got that?",
-  "status": "tl"
+  "en": "Yer madogu will always be on yer side! Got that?",
+  "status": "reviewed"
  }
 ]

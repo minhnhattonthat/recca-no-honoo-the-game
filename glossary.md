@@ -99,4 +99,12 @@ The `tools/lint.py` glossary check reads the tables below (JP present => EN form
 | フランスモアイ | French Moai | Recca's insult for Domon | |
 
 ## Decisions from earlier batches
-- (none yet)
+- Moves/madogu: 嘴王 -> Kuchibashi-O (Wikipedia: Kuchibashi-Ō), 突進 Charge, ボディプレス Body Press, 地雷震 Jiraishin,
+  疾 Hayate, 神慮伸刀 Shinryo Shinto, 竜巻 Tornado, つらら舞 Tsurara Mai, 閻水乱舞 Ensui Ranbu, 水成る蛇 Mizunaru Hebi,
+  つら成る蛇 Tsuranaru Hebi, 大鋏 Obasami, 三日月 Mikazuki, 暗 An, 無 Mu, 鎖鎌 Kusarigama, 弐之型/参之型 Second/Third Form.
+- Groups: 麗十神衆 Uruha Jushinshu, 裏火影 Ura Hokage, 空 (fighting group) Ku.
+- Nicknames: みーちゃん "Mikky", 風子サマ "Lady Fuko", 母ちゃん "Mom", 陽炎ママ "Mama Kagero", 烈火殿 "Sir Recca",
+  ○○兄ちゃん/姉ちゃん "Big Bro/Big Sis ○○", カオリン "Kaorin", 腐乱犬 "Frankenmutt", サル "monkey".
+- 必殺技 special move, 超必殺技 super special move (save panel label: "Super Specials:", 6-cell limit - LONG),
+  第N話 "Part N" (3-cell widget), フィールド "stage", ＣＤ：ＧＥＴ "CD: Found".
+- Kirito is female (she/her). Places: Bionoid Dome, Parthenon, Laboratory, Reservoir.

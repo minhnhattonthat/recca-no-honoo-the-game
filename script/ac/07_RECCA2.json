@@ -56,14 +56,14 @@
  {
   "id": "ac07_009",
   "jp": "しばらく見ないうちに%n腕が落ちたのではないで%nゴザルか？",
-  "en": "Hast thy skill not dulled somewhat since last this one saw thee?",
-  "status": "tl"
+  "en": "Has your skill not dulled somewhat since last this one saw you, I daresay?",
+  "status": "reviewed"
  },
  {
   "id": "ac07_010",
   "jp": "某に負けるようでは%nこれ以上先に行っても%nムダでゴザルよ…。",
-  "en": "If thou art bested by this one, I daresay going any further would be in vain...",
-  "status": "tl"
+  "en": "If you are bested by this one, I daresay going any further would be in vain...",
+  "status": "reviewed"
  },
  {
   "id": "ac07_011",
@@ -92,8 +92,8 @@
  {
   "id": "ac07_015",
   "jp": "しばらくのうちに、%nまた腕をあげたでゴザルな。%n烈火殿。",
-  "en": "Thy skill has grown yet again since last we met, Sir Recca.",
-  "status": "tl"
+  "en": "Your skill has grown yet again since last we met, Sir Recca.",
+  "status": "reviewed"
  },
  {
   "id": "ac07_016",
@@ -344,8 +344,8 @@
  {
   "id": "ac07_057",
   "jp": "おー！　みーちゃん！！%n無事でいるか？",
-  "en": "Hey! Mikagami, pal!! You doing okay?",
-  "status": "tl"
+  "en": "Hey! Mikky, pal!! You doing okay?",
+  "status": "reviewed"
  },
  {
   "id": "ac07_058",
@@ -380,8 +380,8 @@
  {
   "id": "ac07_063",
   "jp": "あいつも敵って訳か？%nみーちゃん。",
-  "en": "So that one's an enemy too, Mikagami?",
-  "status": "tl"
+  "en": "So that one's an enemy too, Mikky?",
+  "status": "reviewed"
  },
  {
   "id": "ac07_064",

@@ -152,8 +152,8 @@
  {
   "id": "ac21_025",
   "jp": "どうにもこうにも%nやばいでゴザルな…。",
-  "en": "This one daresay we are in quite a bind...",
-  "status": "tl"
+  "en": "I daresay we are in quite a bind...",
+  "status": "reviewed"
  },
  {
   "id": "ac21_026",
@@ -278,8 +278,8 @@
  {
   "id": "ac21_046",
   "jp": "その炎使うんは他にいる。%nな？",
-  "en": "Somebody else uses those flames. Right?",
-  "status": "tl"
+  "en": "Those flames are for somebody else. Right?",
+  "status": "reviewed"
  },
  {
   "id": "ac21_047",
@@ -548,8 +548,8 @@
  {
   "id": "ac21_091",
   "jp": "煉華はいいコだなァって%n頭なでてもらうの！！",
-  "en": "He'll pat my head and say, \"Renge's such a good girl!\"!!",
-  "status": "tl"
+  "en": "Papa will pat my head and say, \"Renge's such a good girl!\"!!",
+  "status": "reviewed"
  },
  {
   "id": "ac21_092",
@@ -776,8 +776,8 @@
  {
   "id": "ac21_129",
   "jp": "次は…貴様らだ…。%n火影！！",
-  "en": "Next... is you... Hokage!!",
-  "status": "tl"
+  "en": "You're next... Hokage!!",
+  "status": "reviewed"
  },
  {
   "id": "ac21_130",
