@@ -2,703 +2,703 @@
  {
   "id": "ac16_000",
   "jp": "ＣＤを集める…か。%nくだらない遊びに%n付きあわされるとは。",
-  "en": "",
-  "status": ""
+  "en": "Collect the CDs, huh? To think I'd get dragged into such a pointless game.",
+  "status": "tl"
  },
  {
   "id": "ac16_001",
   "jp": "エリアをそれぞれ%nあたっていくしかないな…。",
-  "en": "",
-  "status": ""
+  "en": "Nothing for it but to search each area one by one...",
+  "status": "tl"
  },
  {
   "id": "ac16_002",
   "jp": "ん……？%n誰だ…。僕の後を%nつけているのは。",
-  "en": "",
-  "status": ""
+  "en": "Hm...? Who's there... Who's been following me?",
+  "status": "tl"
  },
  {
   "id": "ac16_003",
   "jp": "隠れていないで%n姿を現したらどうだ。",
-  "en": "",
-  "status": ""
+  "en": "Stop hiding and show yourself.",
+  "status": "tl"
  },
  {
   "id": "ac16_004",
   "jp": "さすがだ。%n気配だけで気付くとはね。",
-  "en": "",
-  "status": ""
+  "en": "Impressive. You noticed me from my presence alone.",
+  "status": "tl"
  },
  {
   "id": "ac16_005",
   "jp": "…その姿。%n僕を真似ているつもりか。",
-  "en": "",
-  "status": ""
+  "en": "...That appearance. Are you trying to imitate me?",
+  "status": "tl"
  },
  {
   "id": "ac16_006",
   "jp": "ハハハ。%nこの先に行きたかったら%n僕を倒していくんだな！",
-  "en": "",
-  "status": ""
+  "en": "Hahaha. If you want to go any further, you'll have to beat me first!",
+  "status": "tl"
  },
  {
   "id": "ac16_007",
   "jp": "君が誰なのかは%n言うまでも無いが…。",
-  "en": "",
-  "status": ""
+  "en": "There's no need to say who you are, but...",
+  "status": "tl"
  },
  {
   "id": "ac16_008",
   "jp": "まあいい。%n…相手をしてあげよう。",
-  "en": "",
-  "status": ""
+  "en": "Fine. ...I'll be your opponent.",
+  "status": "tl"
  },
  {
   "id": "ac16_009",
   "jp": "どうしたでゴザル、水鏡殿。%n火影の中でも強い主だと%n思っていたでゴザルが…",
-  "en": "",
-  "status": ""
+  "en": "What is the matter, Sir Mikagami? I daresay I thought you one of the strongest of the Hokage...",
+  "status": "tl"
  },
  {
   "id": "ac16_010",
   "jp": "某に負けるのではここから先%n命がいくらあっても%n足りないでゴザルよ…。",
-  "en": "",
-  "status": ""
+  "en": "If you lose to this one, no number of lives will suffice for what lies ahead...",
+  "status": "tl"
  },
  {
   "id": "ac16_011",
   "jp": "くっ…！！",
-  "en": "",
-  "status": ""
+  "en": "Ngh...!!",
+  "status": "tl"
  },
  {
   "id": "ac16_012",
   "jp": "もういいだろう。%n姿を現すんだ。火車丸。",
-  "en": "",
-  "status": ""
+  "en": "That's enough. Show yourself, Kashamaru.",
+  "status": "tl"
  },
  {
   "id": "ac16_013",
   "jp": "あいたたた…%n水鏡殿にはやはり%nかなわんでゴザル…",
-  "en": "",
-  "status": ""
+  "en": "Ow, ow, ow... As I thought, this one is no match for you, Sir Mikagami...",
+  "status": "tl"
  },
  {
   "id": "ac16_014",
   "jp": "腕を上げられたようで%nゴザルな。水鏡殿。",
-  "en": "",
-  "status": ""
+  "en": "You have grown stronger, I daresay, Sir Mikagami.",
+  "status": "tl"
  },
  {
   "id": "ac16_015",
   "jp": "ここで何をしている？",
-  "en": "",
-  "status": ""
+  "en": "What are you doing here?",
+  "status": "tl"
  },
  {
   "id": "ac16_016",
   "jp": "水鏡殿たちの%n応援に来たでゴザルよ。",
-  "en": "",
-  "status": ""
+  "en": "This one has come to support you and the others, Sir Mikagami.",
+  "status": "tl"
  },
  {
   "id": "ac16_017",
   "jp": "ここから先は本当の敵が%nたくさん居るでゴザル。%n気をつけて進んで下され。",
-  "en": "",
-  "status": ""
+  "en": "Beyond here lie many true enemies. Please proceed with care.",
+  "status": "tl"
  },
  {
   "id": "ac16_018",
   "jp": "ありがとう…。",
-  "en": "",
-  "status": ""
+  "en": "Thank you...",
+  "status": "tl"
  },
  {
   "id": "ac16_019",
   "jp": "分かれ道か…%nどちらへいこう…？",
-  "en": "",
-  "status": ""
+  "en": "A fork in the road... Which way should I go...?",
+  "status": "tl"
  },
  {
   "id": "ac16_020",
   "jp": "%T0バイオノイドドームへ向かう%nパルテノンへ向かう",
-  "en": "",
-  "status": ""
+  "en": "%T0Head for the Bionoid Dome%nHead for the Parthenon",
+  "status": "tl"
  },
  {
   "id": "ac16_021",
   "jp": "こっちだな…",
-  "en": "",
-  "status": ""
+  "en": "This way...",
+  "status": "tl"
  },
  {
   "id": "ac16_022",
   "jp": "ここは…%nこの血の臭い……。",
-  "en": "",
-  "status": ""
+  "en": "This place... This smell of blood...",
+  "status": "tl"
  },
  {
   "id": "ac16_023",
   "jp": "歓迎しよう。%nようこそ、ＳＯＤＯＭへ。%n火影の者。",
-  "en": "",
-  "status": ""
+  "en": "Let me welcome you. Welcome to SODOM, one of the Hokage.",
+  "status": "tl"
  },
  {
   "id": "ac16_024",
   "jp": "時間がないんだ。",
-  "en": "",
-  "status": ""
+  "en": "I don't have time for this.",
+  "status": "tl"
  },
  {
   "id": "ac16_025",
   "jp": "ほう。%n何かを覚悟して強さに%n磨きをかけたようだな。",
-  "en": "",
-  "status": ""
+  "en": "Oh? You seem to have resolved yourself to something and honed your strength.",
+  "status": "tl"
  },
  {
   "id": "ac16_026",
   "jp": "君も液体を武器にする。%nだが、ひとつの相違点。%n血液は生きている。",
-  "en": "",
-  "status": ""
+  "en": "You also use liquid as a weapon. But there is one difference. Blood is alive.",
+  "status": "tl"
  },
  {
   "id": "ac16_027",
   "jp": "君の剣が魔導具なのに対し、%n私の剣は%n体の一部といえる。",
-  "en": "",
-  "status": ""
+  "en": "Whereas your sword is a madogu, mine is part of my very body.",
+  "status": "tl"
  },
  {
   "id": "ac16_028",
   "jp": "…身を削った曲芸だな。%n貧血になるぞ。",
-  "en": "",
-  "status": ""
+  "en": "...A trick that cuts into your own flesh. You'll end up anemic.",
+  "status": "tl"
  },
  {
   "id": "ac16_029",
   "jp": "心配無用。それまでに%n決着をつけよう。%n行くぞ！",
-  "en": "",
-  "status": ""
+  "en": "No need to worry. We will settle this before then. Here I come!",
+  "status": "tl"
  },
  {
   "id": "ac16_030",
   "jp": "そんなことでは、%nあの男には一生%n会えぬぞ！",
-  "en": "",
-  "status": ""
+  "en": "At this rate, you'll never meet that man in your whole life!",
+  "status": "tl"
  },
  {
   "id": "ac16_031",
   "jp": "…くっ！",
-  "en": "",
-  "status": ""
+  "en": "...Ngh!",
+  "status": "tl"
  },
  {
   "id": "ac16_032",
   "jp": "水鏡凍季也。%nお前には恐怖がないのか…？",
-  "en": "",
-  "status": ""
+  "en": "Tokiya Mikagami. Do you feel no fear...?",
+  "status": "tl"
  },
  {
   "id": "ac16_033",
   "jp": "あるさ。%n怖くてたまらない。",
-  "en": "",
-  "status": ""
+  "en": "I do. I'm terrified.",
+  "status": "tl"
  },
  {
   "id": "ac16_034",
   "jp": "死ぬ事だって%nあるかもしれない。%nそれは恐怖だよ。",
-  "en": "",
-  "status": ""
+  "en": "I may even die. That is fear.",
+  "status": "tl"
  },
  {
   "id": "ac16_035",
   "jp": "正直だな……。%nしかし、行くと……？",
-  "en": "",
-  "status": ""
+  "en": "How honest...... And yet you go on...?",
+  "status": "tl"
  },
  {
   "id": "ac16_036",
   "jp": "姉を倒された復讐心が%nお前を動かすのか！？",
-  "en": "",
-  "status": ""
+  "en": "Is it revenge for your slain sister that drives you!?",
+  "status": "tl"
  },
  {
   "id": "ac16_037",
   "jp": "少し前まではそうだった。%nだが、%n教えてくれた友がいた。",
-  "en": "",
-  "status": ""
+  "en": "Until a little while ago, it was. But I had a friend who taught me otherwise.",
+  "status": "tl"
  },
  {
   "id": "ac16_038",
   "jp": "今は違う。%n全てを知るために行くんだ。",
-  "en": "",
-  "status": ""
+  "en": "Now it's different. I go to learn everything.",
+  "status": "tl"
  },
  {
   "id": "ac16_039",
   "jp": "……行け、水鏡…。%n行って、全てを知って来い。",
-  "en": "",
-  "status": ""
+  "en": "......Go, Mikagami... Go, and learn everything.",
+  "status": "tl"
  },
  {
   "id": "ac16_040",
   "jp": "次はここか。",
-  "en": "",
-  "status": ""
+  "en": "So this is next.",
+  "status": "tl"
  },
  {
   "id": "ac16_041",
   "jp": "な……！？%nなんだ…%n…この気配…！？",
-  "en": "",
-  "status": ""
+  "en": "Wha......!? What... ...is this presence...!?",
+  "status": "tl"
  },
  {
   "id": "ac16_042",
   "jp": "フーッフーッ！！%nお前！　誰！？%n…火影の　者…？",
-  "en": "",
-  "status": ""
+  "en": "Hff! Hff!! You! Who!? ...Hokage... one...?",
+  "status": "tl"
  },
  {
   "id": "ac16_043",
   "jp": "何だ、コイツは…！？%n今までの奴とは%n雰囲気がまるで違う…",
-  "en": "",
-  "status": ""
+  "en": "What is this thing...!? Its aura is nothing like the ones before...",
+  "status": "tl"
  },
  {
   "id": "ac16_044",
   "jp": "ヒャヒャヒャヒャ！！%n火影！　やっと　見つけた！%nお前　楽しめそう！！",
-  "en": "",
-  "status": ""
+  "en": "Hyahyahyahya!! Hokage! Finally found! You, fun maybe!!",
+  "status": "tl"
  },
  {
   "id": "ac16_045",
   "jp": "森光蘭…。%nこんな奴まで%n飼って居るのか…。",
-  "en": "",
-  "status": ""
+  "en": "Koran Mori... So he even keeps a creature like this...",
+  "status": "tl"
  },
  {
   "id": "ac16_046",
   "jp": "倒す！　火影！%nゆっくり　倒す！　楽しむ！%nヒャヒャヒャヒャッ！！",
-  "en": "",
-  "status": ""
+  "en": "Beat! Hokage! Beat slow! Have fun! Hyahyahyahya!!",
+  "status": "tl"
  },
  {
   "id": "ac16_047",
   "jp": "お前に、%n話はムダだな…",
-  "en": "",
-  "status": ""
+  "en": "Talking is wasted on you...",
+  "status": "tl"
  },
  {
   "id": "ac16_048",
   "jp": "ヒャッヒャッヒャ！！",
-  "en": "",
-  "status": ""
+  "en": "Hyah! Hyah! Hyah!!",
+  "status": "tl"
  },
  {
   "id": "ac16_049",
   "jp": "ヒャヒャヒャヒャ！%n久しぶり！　楽しい！！%n火影！　倒した！　倒した！",
-  "en": "",
-  "status": ""
+  "en": "Hyahyahyahya! Long time! Fun!! Hokage! Beat! Beat!",
+  "status": "tl"
  },
  {
   "id": "ac16_050",
   "jp": "クッ…%nそんな……バカなッ…",
-  "en": "",
-  "status": ""
+  "en": "Ngh... No...... impossible...",
+  "status": "tl"
  },
  {
   "id": "ac16_051",
   "jp": "パワーとスピード…%n凄いな…",
-  "en": "",
-  "status": ""
+  "en": "Power and speed... Impressive...",
+  "status": "tl"
  },
  {
   "id": "ac16_052",
   "jp": "オォオォオォ…！！！%nオレ　負ける…　ない！！%nガハァッッ……",
-  "en": "",
-  "status": ""
+  "en": "Ooooh...!!! Me... not... lose!! Gahhh......",
+  "status": "tl"
  },
  {
   "id": "ac16_053",
   "jp": "だが、それだけでは%n勝てない……。",
-  "en": "",
-  "status": ""
+  "en": "But that alone won't win you a fight......",
+  "status": "tl"
  },
  {
   "id": "ac16_054",
   "jp": "また、分かれ道か……。",
-  "en": "",
-  "status": ""
+  "en": "Another fork in the road......",
+  "status": "tl"
  },
  {
   "id": "ac16_055",
   "jp": "%T0研究所へ向かう%n貯水池へ向かう",
-  "en": "",
-  "status": ""
+  "en": "%T0Head for the Laboratory%nHead for the Reservoir",
+  "status": "tl"
  },
  {
   "id": "ac16_056",
   "jp": "研究所へ行こう。",
-  "en": "",
-  "status": ""
+  "en": "I'll go to the Laboratory.",
+  "status": "tl"
  },
  {
   "id": "ac16_057",
   "jp": "貯水池へ行こう。",
-  "en": "",
-  "status": ""
+  "en": "I'll go to the Reservoir.",
+  "status": "tl"
  },
  {
   "id": "ac16_058",
   "jp": "ここが研究所か。",
-  "en": "",
-  "status": ""
+  "en": "So this is the Laboratory.",
+  "status": "tl"
  },
  {
   "id": "ac16_059",
   "jp": "あら？　もう１人、%nいらっしゃいましたね、%n火影のかた。",
-  "en": "",
-  "status": ""
+  "en": "Oh? Another one has come, from the Hokage.",
+  "status": "tl"
  },
  {
   "id": "ac16_060",
   "jp": "おーっ！%nみーちゃん！！%n無事でいたか！？",
-  "en": "",
-  "status": ""
+  "en": "Whoa! Mikky!! You're all right!?",
+  "status": "tl"
  },
  {
   "id": "ac16_061",
   "jp": "烈火。%n当たり前だ。%nお前や土門とは違う。",
-  "en": "",
-  "status": ""
+  "en": "Recca. Of course I am. I'm not like you or Domon.",
+  "status": "tl"
  },
  {
   "id": "ac16_062",
   "jp": "なんぢゃ！%n喧嘩売っとんのか！　ワレ！",
-  "en": "",
-  "status": ""
+  "en": "The hell!? You lookin' for a fight, punk!?",
+  "status": "tl"
  },
  {
   "id": "ac16_063",
   "jp": "２人になったところで%n何も変わりませんけど。",
-  "en": "",
-  "status": ""
+  "en": "Not that two of you will change anything.",
+  "status": "tl"
  },
  {
   "id": "ac16_064",
   "jp": "あなたも、私の死愚魔に%n倒されに来たんですか？",
-  "en": "",
-  "status": ""
+  "en": "Have you come to be defeated by my Shiguma as well?",
+  "status": "tl"
  },
  {
   "id": "ac16_065",
   "jp": "ギョェーッ！！",
-  "en": "",
-  "status": ""
+  "en": "Gyoeeeh!!",
+  "status": "tl"
  },
  {
   "id": "ac16_066",
   "jp": "あの、でかいのが敵だぜ！%n気をつけろよ！%nみーちゃん。",
-  "en": "",
-  "status": ""
+  "en": "That big one's the enemy! Be careful, Mikky!",
+  "status": "tl"
  },
  {
   "id": "ac16_067",
   "jp": "見れば分かる。%nお前は邪魔だから先へ行け。%nここは僕ひとりで十分だ。",
-  "en": "",
-  "status": ""
+  "en": "I can see that. You're in the way, so go on ahead. I can handle this alone.",
+  "status": "tl"
  },
  {
   "id": "ac16_068",
   "jp": "邪魔とはなんぢゃ！%nお前こそ次へ行っとれ！%n水鏡ィ！",
-  "en": "",
-  "status": ""
+  "en": "What do ya mean, in the way!? You're the one who should go on ahead! Mikagamiii!",
+  "status": "tl"
  },
  {
   "id": "ac16_069",
   "jp": "仲間割れですか？%nでも、容赦しません！%n倒していいわよ！　死愚魔！",
-  "en": "",
-  "status": ""
+  "en": "Fighting each other? I still won't show mercy! Go ahead and beat them, Shiguma!",
+  "status": "tl"
  },
  {
   "id": "ac16_070",
   "jp": "ギョェーーーッ！！",
-  "en": "",
-  "status": ""
+  "en": "Gyoeeeeeeh!!",
+  "status": "tl"
  },
  {
   "id": "ac16_071",
   "jp": "柳さんを救うことが目的だ。%nこんなのは相手じゃない。%n…違うか？　烈火。",
-  "en": "",
-  "status": ""
+  "en": "Our goal is to save Yanagi. This thing isn't worth our time. ...Am I wrong, Recca?",
+  "status": "tl"
  },
  {
   "id": "ac16_072",
   "jp": "……。%nわかったぜ！",
-  "en": "",
-  "status": ""
+  "en": "...... Got it!",
+  "status": "tl"
  },
  {
   "id": "ac16_073",
   "jp": "ここは任せた！%n後で追いつけよ！%nみーちゃん！",
-  "en": "",
-  "status": ""
+  "en": "I'm leaving this to you! Catch up later, Mikky!",
+  "status": "tl"
  },
  {
   "id": "ac16_074",
   "jp": "来い、バケモノ。%n僕が相手だ。",
-  "en": "",
-  "status": ""
+  "en": "Come, monster. I'm your opponent.",
+  "status": "tl"
  },
  {
   "id": "ac16_075",
   "jp": "あはははは！%n心配しなくていいですよ！",
-  "en": "",
-  "status": ""
+  "en": "Ahahahaha! You don't need to worry!",
+  "status": "tl"
  },
  {
   "id": "ac16_076",
   "jp": "さっきのひとも、%nちゃんと見つけて%n倒してあげますから！！",
-  "en": "",
-  "status": ""
+  "en": "I'll find that other guy too and beat him properly!!",
+  "status": "tl"
  },
  {
   "id": "ac16_077",
   "jp": "グギャギャギャー！！",
-  "en": "",
-  "status": ""
+  "en": "Gugyagyagyaaa!!",
+  "status": "tl"
  },
  {
   "id": "ac16_078",
   "jp": "ガハッ……！",
-  "en": "",
-  "status": ""
+  "en": "Gah......!",
+  "status": "tl"
  },
  {
   "id": "ac16_079",
   "jp": "結構かかったな。%n烈火に離されたかも%nしれない。",
-  "en": "",
-  "status": ""
+  "en": "That took a while. Recca may have pulled ahead of me.",
+  "status": "tl"
  },
  {
   "id": "ac16_080",
   "jp": "ああ…%n私の死愚魔が……",
-  "en": "",
-  "status": ""
+  "en": "Ah... My Shiguma......",
+  "status": "tl"
  },
  {
   "id": "ac16_081",
   "jp": "失礼するよ。%n先を急ぐんでね。",
-  "en": "",
-  "status": ""
+  "en": "Excuse me. I'm in a hurry.",
+  "status": "tl"
  },
  {
   "id": "ac16_082",
   "jp": "ここだな…次は。",
-  "en": "",
-  "status": ""
+  "en": "Here's the next one...",
+  "status": "tl"
  },
  {
   "id": "ac16_083",
   "jp": "キヒ…　キヒヒヒヒヒ…%n元気にしてたぁ？%nみィーかぁあぐぁみィいぃ！",
-  "en": "",
-  "status": ""
+  "en": "Kihi... Kihihihihi... Been doin' well? Miiii-kaaa-gaaa-miiii!",
+  "status": "tl"
  },
  {
   "id": "ac16_084",
   "jp": "お前か……、木蓮。",
-  "en": "",
-  "status": ""
+  "en": "So it's you......, Mokuren.",
+  "status": "tl"
  },
  {
   "id": "ac16_085",
   "jp": "スカしてんじゃねーんだよ。%nこの野郎！！",
-  "en": "",
-  "status": ""
+  "en": "Quit actin' so cool, you bastard!!",
+  "status": "tl"
  },
  {
   "id": "ac16_086",
   "jp": "てめえは%n合体ロボみてえに%nバラバラにしてやる！！",
-  "en": "",
-  "status": ""
+  "en": "I'm gonna take you apart like a combining robot!!",
+  "status": "tl"
  },
  {
   "id": "ac16_087",
   "jp": "分際をわきまえろ。%nお前に何ができる？",
-  "en": "",
-  "status": ""
+  "en": "Know your place. What can you possibly do?",
+  "status": "tl"
  },
  {
   "id": "ac16_088",
   "jp": "るせーよ！！%nくたばれ！　水鏡ィ！！",
-  "en": "",
-  "status": ""
+  "en": "Shaddup!! Drop dead, Mikagamiii!!",
+  "status": "tl"
  },
  {
   "id": "ac16_089",
   "jp": "ぎゃはははは！%nやったぜ！！%n水鏡を倒した！！",
-  "en": "",
-  "status": ""
+  "en": "Gyahahahaha! I did it!! I beat Mikagami!!",
+  "status": "tl"
  },
  {
   "id": "ac16_090",
   "jp": "キヒヒヒヒヒ！！%nイヒヒッイヒヒヒッ！！",
-  "en": "",
-  "status": ""
+  "en": "Kihihihihi!! Ihihi! Ihihihi!!",
+  "status": "tl"
  },
  {
   "id": "ac16_091",
   "jp": "……つっ……！",
-  "en": "",
-  "status": ""
+  "en": "......Ngh......!",
+  "status": "tl"
  },
  {
   "id": "ac16_092",
   "jp": "君はなにも、%n変わらないな…",
-  "en": "",
-  "status": ""
+  "en": "You haven't changed a bit...",
+  "status": "tl"
  },
  {
   "id": "ac16_093",
   "jp": "うあああああ…っ！%nちぃっく…しょうぉ…！！",
-  "en": "",
-  "status": ""
+  "en": "Uaaaaah...! Daaamn... iiit...!!",
+  "status": "tl"
  },
  {
   "id": "ac16_094",
   "jp": "……%n先へ行かせてもらうよ。",
-  "en": "",
-  "status": ""
+  "en": "...... I'll be going on ahead.",
+  "status": "tl"
  },
  {
   "id": "ac16_095",
   "jp": "来た！　来たァーッ！%nあなたが火影の人でしょ！%n名前は…えっと…",
-  "en": "",
-  "status": ""
+  "en": "He's here! He's heeere! You're the Hokage guy, right! Your name is... um...",
+  "status": "tl"
  },
  {
   "id": "ac16_096",
   "jp": "お前が%n紅麗と紅の間に生まれた%nクローンか。",
-  "en": "",
-  "status": ""
+  "en": "So you're the clone born of Kurei and Kurenai.",
+  "status": "tl"
  },
  {
   "id": "ac16_097",
   "jp": "天堂地獄、いや、森光蘭。%n果てしない欲望の%n哀れな創造物だな。",
-  "en": "",
-  "status": ""
+  "en": "Tendo Jigoku -- no, Koran Mori. You're the pitiful creation of his endless greed.",
+  "status": "tl"
  },
  {
   "id": "ac16_098",
   "jp": "パパと融合しちゃう女の子を%n助けに来たんでショ！？%nこの先にいるよっ！！",
-  "en": "",
-  "status": ""
+  "en": "You came to save the girl who's gonna fuse with Papa, right!? She's up ahead!!",
+  "status": "tl"
  },
  {
   "id": "ac16_099",
   "jp": "だけど、%nこのＣＤがないと%n行けないんだよねーっ！！",
-  "en": "",
-  "status": ""
+  "en": "But you can't get there without this CD!!",
+  "status": "tl"
  },
  {
   "id": "ac16_100",
   "jp": "でもコレ、いらないよね！？%nあなたは私にここで%n倒されちゃうんだからっ！！",
-  "en": "",
-  "status": ""
+  "en": "But you won't need it, right!? 'Cause I'm gonna beat you right here!!",
+  "status": "tl"
  },
  {
   "id": "ac16_101",
   "jp": "そのＣＤを渡してもらう%n代わりに、僕がひとつだけ%n調べ物をしてやろう。",
-  "en": "",
-  "status": ""
+  "en": "In exchange for that CD, I'll look into just one thing for you.",
+  "status": "tl"
  },
  {
   "id": "ac16_102",
   "jp": "お前は炎も使えるそうだな。",
-  "en": "",
-  "status": ""
+  "en": "I hear you can use flames too.",
+  "status": "tl"
  },
  {
   "id": "ac16_103",
   "jp": "比べてやる。%nあのサルの炎と渡り合える%nものなのかどうかを。",
-  "en": "",
-  "status": ""
+  "en": "I'll see how you compare. Whether they can stand up to that monkey's flames.",
+  "status": "tl"
  },
  {
   "id": "ac16_104",
   "jp": "何よ、サルって。%nパパー！　今から、火影の人%nやっつけるからねー！",
-  "en": "",
-  "status": ""
+  "en": "What's \"monkey\" supposed to mean? Papa! I'm gonna beat the Hokage guy now!",
+  "status": "tl"
  },
  {
   "id": "ac16_105",
   "jp": "キャハハハ！！%nどう？　楽しかった！？",
-  "en": "",
-  "status": ""
+  "en": "Kyahahaha!! Well? Was that fun!?",
+  "status": "tl"
  },
  {
   "id": "ac16_106",
   "jp": "パパーっ！！%n見ててくれたァ！？%n煉華、勝ったよーっ！！",
-  "en": "",
-  "status": ""
+  "en": "Papaaa!! Were you watching!? Renge won!!",
+  "status": "tl"
  },
  {
   "id": "ac16_107",
   "jp": "くっ……",
-  "en": "",
-  "status": ""
+  "en": "Ngh......",
+  "status": "tl"
  },
  {
   "id": "ac16_108",
   "jp": "所詮、クローンか。%nあのサルの炎には%n到底及ばないな。",
-  "en": "",
-  "status": ""
+  "en": "Just a clone after all. Nowhere near that monkey's flames.",
+  "status": "tl"
  },
  {
   "id": "ac16_109",
   "jp": "これがＣＤだな。%nもらっていこう。",
-  "en": "",
-  "status": ""
+  "en": "So this is the CD. I'll be taking it.",
+  "status": "tl"
  },
  {
   "id": "ac16_110",
   "jp": "ふええ……%n…パパァ…",
-  "en": "",
-  "status": ""
+  "en": "Waaah...... ...Papaaa...",
+  "status": "tl"
  },
  {
   "id": "ac16_111",
   "jp": "いよいよ本物の強さを%n身につけたようじゃな。",
-  "en": "",
-  "status": ""
+  "en": "Looks like ye've finally gained true strength.",
+  "status": "tl"
  },
  {
   "id": "ac16_112",
   "jp": "気を引き締めて%nいくのじゃぞ！！",
-  "en": "",
-  "status": ""
+  "en": "Keep your guard up as ye go on!!",
+  "status": "tl"
  },
  {
   "id": "ac16_113",
   "jp": "水鏡は%n「つら成る蛇」（%B%P6Ｒ＋↑＋Ａ%S%P7）が%n使えるようになった！",
-  "en": "",
-  "status": ""
+  "en": "Mikagami can now use \"Tsuranaru Hebi\" (%B%P6Ｒ＋↑＋Ａ%S%P7)!",
+  "status": "tl"
  },
  {
   "id": "ac16_114",
   "jp": "たいしたものじゃ。ここまで%n強くなっておったとは。%nここであえて一言、言おう。",
-  "en": "",
-  "status": ""
+  "en": "Impressive. To think ye'd grown this strong. Let me say just one thing here.",
+  "status": "tl"
  },
  {
   "id": "ac16_115",
   "jp": "煉華相手には、お主が%n会得できる必殺技を惜しまず%n全て使ったほうがよい！",
-  "en": "",
-  "status": ""
+  "en": "Against Renge, don't hold back -- use every special move ye can learn!",
+  "status": "tl"
  },
  {
   "id": "ac16_116",
   "jp": "閻水は、さらなる力を%nお主に与えてくれようぞ！",
-  "en": "",
-  "status": ""
+  "en": "Ensui will grant ye even greater power!",
+  "status": "tl"
  }
 ]

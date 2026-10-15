@@ -54,6 +54,20 @@ glossary terms: fix if the name/term really should be there; pronouns or a natur
 - No suffix glued to a placeholder (no "Σth"); no "a/an" right before σ or Σ.
 - Swearing at the level of a shonen anime ("damn", "bastard" ok).
 
+## Notes from earlier batches (binding)
+- 火竜 -> "fire dragon"; 必殺技 -> "special move"; 超必殺技 -> "super special move".
+- 母ちゃん (Recca to Kagero) -> "Mom"; 陽炎ママ (Domon/Fuko) -> "Mama Kagero"; みーちゃん (for Mikagami) -> "Mikky".
+- 風子サマ (Domon fawning) -> "Lady Fuko"; 烈火殿 (Kashamaru) -> "Sir Recca" (keep archaic speech light, no thee/thou).
+- 腐乱犬 (Mikagami's insult for Domon) -> "Frankenmutt". 嘴王 -> Shiou. 命 as a person -> Mikoto.
+- Fuko moves: 疾 -> Hayate, 神慮伸刀 -> Shinryo Shinto, 竜巻 -> Tornado. カオリン -> "Kaorin". Koku's ウィーッス/ウッス -> "Yo-ho!"/"Yo!".
+- Mikagami moves: つらら舞 -> Tsurara Mai, 閻水乱舞 -> Ensui Ranbu, 水成る蛇 -> Mizunaru Hebi, つら成る蛇 -> Tsuranaru Hebi.
+- 紅 (a person) -> Kurenai. 水鏡兄ちゃん/土門兄ちゃん (Kaoru) -> "Big Bro Mikagami"/"Big Bro Domon". 水鏡殿 -> "Sir Mikagami".
+- 裏火影 -> "Ura Hokage". 姉さん (Mikagami's sister) -> "my sister" / "Sister". サル (Mikagami for Recca) -> "monkey".
+- Moves: 突進 -> Charge, ボディプレス -> Body Press, 地雷震 -> Jiraishin.
+- Places: バイオノイドドーム -> Bionoid Dome, パルテノン -> Parthenon, 研究所 -> Laboratory, 貯水池 -> Reservoir.
+- 2-option choice menus: keep exactly one `%n` between the two options (this is the only allowed `%n` use).
+- Other control codes (`%T1`, `%/`, ...) stay where they were, even if not listed above.
+
 ## Consistency
 Never edit `glossary.md` or any file other than your own output file. For a recurring name or term not in the
 glossary, pick a form, use it consistently, and report it.

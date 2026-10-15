@@ -8,8 +8,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Change the game settings.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -21,8 +21,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "View the game data.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -34,8 +34,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Fight endless battles.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -47,8 +47,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Enjoy versus battles.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -60,8 +60,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Enjoy the story.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -73,8 +73,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Link battle with another GBA.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -86,8 +86,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Battle the computer.",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -99,8 +99,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Select a mode...",
+  "status": "tl",
   "ctx": "help bar at the bottom of a menu (15 cells)"
  },
  {
@@ -112,8 +112,8 @@
   "cells": [
    13
   ],
-  "en": "",
-  "status": "",
+  "en": "Link error occurred!",
+  "status": "tl",
   "ctx": "link-cable error message"
  },
  {
@@ -125,8 +125,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Where will you start?",
+  "status": "tl",
   "ctx": "help bar, story mode start"
  },
  {
@@ -138,8 +138,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Choose a character.",
+  "status": "tl",
   "ctx": "help bar, story mode start"
  },
  {
@@ -151,8 +151,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Outside the Gate",
+  "status": "tl",
   "ctx": "story mode: chapter to start from (list item)",
   "max": 9
  },
@@ -165,8 +165,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Inside SODOM",
+  "status": "tl",
   "ctx": "story mode: chapter to start from (list item)",
   "max": 9
  },
@@ -179,8 +179,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Training Chapter",
+  "status": "tl",
   "ctx": "story mode: chapter to start from (list item)",
   "max": 9
  },
@@ -193,8 +193,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "CD:%BGot it",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -206,8 +206,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Save Yanagi:%BVowed!",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -219,8 +219,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Clear",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -232,8 +232,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Special Moves:０／３",
+  "status": "tl",
   "ctx": "story save-info panel (label : value); LABEL ONLY: keep the trailing ０／３ (or ０／１) exactly, the label before it max 6 cells",
   "layout": "digits"
  },
@@ -246,8 +246,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Super Specials:０／１",
+  "status": "tl",
   "ctx": "story save-info panel (label : value); LABEL ONLY: keep the trailing ０／３ (or ０／１) exactly, the label before it max 6 cells",
   "layout": "digits"
  },
@@ -260,8 +260,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Save Data",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -273,8 +273,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Name:",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -286,8 +286,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Clear",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -299,8 +299,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei",
+  "status": "tl",
   "ctx": "story save-info panel: character full name",
   "max": 9
  },
@@ -313,8 +313,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Kaoru Koganei",
+  "status": "tl",
   "ctx": "story save-info panel: character full name",
   "max": 9
  },
@@ -327,8 +327,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Tokiya Mikagami",
+  "status": "tl",
   "ctx": "story save-info panel: character full name",
   "max": 9
  },
@@ -341,8 +341,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko Kirisawa",
+  "status": "tl",
   "ctx": "story save-info panel: character full name",
   "max": 9
  },
@@ -355,8 +355,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon Ishijima",
+  "status": "tl",
   "ctx": "story save-info panel: character full name",
   "max": 9
  },
@@ -369,8 +369,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca Hanabishi",
+  "status": "tl",
   "ctx": "story save-info panel: character full name",
   "max": 9
  },
@@ -383,8 +383,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 9",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -396,8 +396,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 8",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -409,8 +409,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 7",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -422,8 +422,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 6",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -435,8 +435,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 5",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -448,8 +448,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 4",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -461,8 +461,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 3",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -474,8 +474,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 2",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -487,8 +487,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Part 1",
+  "status": "tl",
   "ctx": "story save-info panel: episode number"
  },
  {
@@ -500,8 +500,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "---------",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -514,8 +514,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca and Kurei",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -528,8 +528,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "The Raging Flame",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -542,8 +542,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "The Traitor",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -556,8 +556,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Brother and Sister",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -570,8 +570,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Cry of Madness",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -584,8 +584,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "The Hunt Begins",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -598,8 +598,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Uruha Joins In!",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -612,8 +612,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Gale!!",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -626,8 +626,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Mission",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -640,8 +640,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Challenger in the Dark",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -654,8 +654,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "A Serious Duel",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -668,8 +668,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "The Vow",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -682,8 +682,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Interception",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -696,8 +696,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Ambush",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -710,8 +710,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon's Ambition",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -724,8 +724,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Confession",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -738,8 +738,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Madogu Showdown",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -752,8 +752,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Final Battle",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -766,8 +766,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "The Door Opens",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -780,8 +780,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Vengeful Plant Weapon",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -794,8 +794,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "The Madogu Monster",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -808,8 +808,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Ura Uruha's Deadliest",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -822,8 +822,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "The Creeping Clutches",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -836,8 +836,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Fortress City SODOM",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -850,8 +850,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Hokage Sets Out",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -864,8 +864,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Hesitation",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -878,8 +878,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "Hope",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -892,8 +892,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "The Battle Begins",
+  "status": "tl",
   "ctx": "story save-info panel: episode title",
   "max": 9
  },
@@ -906,8 +906,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Clear",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -919,8 +919,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Special Moves:０／３",
+  "status": "tl",
   "ctx": "story save-info panel (label : value); LABEL ONLY: keep the trailing ０／３ (or ０／１) exactly, the label before it max 6 cells",
   "layout": "digits"
  },
@@ -933,8 +933,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Super Specials:０／１",
+  "status": "tl",
   "ctx": "story save-info panel (label : value); LABEL ONLY: keep the trailing ０／３ (or ０／１) exactly, the label before it max 6 cells",
   "layout": "digits"
  },
@@ -947,8 +947,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Save Yanagi:%BVowed!",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -960,8 +960,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "CD:%BGot it!",
+  "status": "tl",
   "ctx": "story save-info panel (label : value)"
  },
  {
@@ -973,8 +973,8 @@
   "cells": [
    12
   ],
-  "en": "",
-  "status": "",
+  "en": "Press the A Button.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -986,8 +986,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Can't select.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -999,8 +999,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Choose a character.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -1012,8 +1012,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Please wait a moment.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -1025,8 +1025,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Set the rules.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -1038,8 +1038,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Please wait a moment.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -1051,8 +1051,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Choose a stage.",
+  "status": "tl",
   "ctx": "battle-mode help bar / prompt"
  },
  {
@@ -1066,8 +1066,8 @@
    13,
    12
   ],
-  "en": "",
-  "status": "",
+  "en": "Checking the link connection. Get ready for a link battle.",
+  "status": "tl",
   "ctx": "link-cable battle setup message (Kagero speaking)"
  },
  {
@@ -1080,8 +1080,8 @@
    8,
    17
   ],
-  "en": "",
-  "status": "",
+  "en": "We're connected. Press the START button!",
+  "status": "tl",
   "ctx": "link-cable battle setup message (Kagero speaking)"
  },
  {
@@ -1094,8 +1094,8 @@
    8,
    17
   ],
-  "en": "",
-  "status": "",
+  "en": "We're connected. Please wait a little longer!",
+  "status": "tl",
   "ctx": "link-cable battle setup message (Kagero speaking)"
  },
  {
@@ -1107,8 +1107,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Can't select.",
+  "status": "tl",
   "ctx": "link-cable battle setup message (Kagero speaking)"
  },
  {
@@ -1120,8 +1120,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Choose a character.",
+  "status": "tl",
   "ctx": "link-cable battle setup message (Kagero speaking)"
  },
  {
@@ -1135,8 +1135,8 @@
    10,
    13
   ],
-  "en": "",
-  "status": "",
+  "en": "There's nothing more I can tell ye. Ye've grown so strong!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1151,8 +1151,8 @@
    10,
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Ye've mastered your madogu perfectly! Most impressive!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1167,8 +1167,8 @@
    8,
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Wonderful-o! I never thought ye'd be this amazing!!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1183,8 +1183,8 @@
    8,
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Well, well! What a beautiful way to fight!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1199,8 +1199,8 @@
    8,
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "As expected! Ye've truly mastered your own moves!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1215,8 +1215,8 @@
    7,
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "Not too shabby! But can't ye do even better?",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1230,8 +1230,8 @@
    9,
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "Quite the skill. Ye had me spellbound.",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1245,8 +1245,8 @@
    10,
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Pretty good stuff. Not bad at all!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1260,8 +1260,8 @@
    12,
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "What are ye doing? That won't cut it!",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1275,8 +1275,8 @@
    10,
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Totally hopeless. What a waste of time.",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1290,8 +1290,8 @@
    10,
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "That's all? How disappointing.",
+  "status": "tl",
   "ctx": "Koku rates your training-mode performance (3-line box)",
   "max": 13
  },
@@ -1304,8 +1304,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Choose a character.",
+  "status": "tl",
   "ctx": "database help bar"
  },
  {
@@ -1317,8 +1317,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Go back.",
+  "status": "tl",
   "ctx": "database help bar"
  },
  {
@@ -1330,8 +1330,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "View the move list.",
+  "status": "tl",
   "ctx": "database help bar"
  },
  {
@@ -1343,8 +1343,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "View VS records.",
+  "status": "tl",
   "ctx": "database help bar"
  },
  {
@@ -1356,8 +1356,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "View profiles.",
+  "status": "tl",
   "ctx": "database help bar"
  },
  {
@@ -1369,8 +1369,8 @@
   "cells": [
    16
   ],
-  "en": "",
-  "status": "",
+  "en": "Exit the sound test.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1382,8 +1382,8 @@
   "cells": [
    18
   ],
-  "en": "",
-  "status": "",
+  "en": "Failed to save the data.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1395,8 +1395,8 @@
   "cells": [
    18
   ],
-  "en": "",
-  "status": "",
+  "en": "Reset successful.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1408,8 +1408,8 @@
   "cells": [
    18
   ],
-  "en": "",
-  "status": "",
+  "en": "Really reset the data?",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1421,8 +1421,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Exit options.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1434,8 +1434,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Sound test.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1447,8 +1447,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Reset the save data.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1460,8 +1460,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Stage select settings.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1473,8 +1473,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Rule settings.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1486,8 +1486,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "Turn the handicap on/off.",
+  "status": "tl",
   "ctx": "option menu help bar / dialog"
  },
  {
@@ -1499,8 +1499,8 @@
   "cells": [
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "Yanagi 2: Forever...",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1513,8 +1513,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Yanagi 1: Recca",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1527,8 +1527,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "DOUBLE KO",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1541,8 +1541,8 @@
   "cells": [
    2
   ],
-  "en": "",
-  "status": "",
+  "en": "KO",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1555,8 +1555,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "TIME OUT",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1569,8 +1569,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "DRAW",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1583,8 +1583,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "YOU LOSE",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1597,8 +1597,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "YOU WIN",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1611,8 +1611,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "GO!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1625,8 +1625,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "READY!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1639,8 +1639,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Flame of Recca",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1653,8 +1653,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Shiguma: Death Cry",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1667,8 +1667,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Shiguma: Victory",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1681,8 +1681,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Shiguma: Hit",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1695,8 +1695,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Shiguma: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1709,8 +1709,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Shiguma: Normal Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1723,8 +1723,8 @@
   "cells": [
    12
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Shout/Like I'd let you!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1737,8 +1737,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1751,8 +1751,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1765,8 +1765,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1779,8 +1779,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1793,8 +1793,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1807,8 +1807,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1821,8 +1821,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1835,8 +1835,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1849,8 +1849,8 @@
   "cells": [
    14
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Shout/Hya-hya!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1863,8 +1863,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1877,8 +1877,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1891,8 +1891,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1905,8 +1905,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1919,8 +1919,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1933,8 +1933,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1947,8 +1947,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1961,8 +1961,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1975,8 +1975,8 @@
   "cells": [
    14
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Shout/I won't let you!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -1989,8 +1989,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2003,8 +2003,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2017,8 +2017,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2031,8 +2031,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2045,8 +2045,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2059,8 +2059,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2073,8 +2073,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2088,8 +2088,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2102,8 +2102,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2116,8 +2116,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2131,8 +2131,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2145,8 +2145,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2159,8 +2159,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Shout/Hunt!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2173,8 +2173,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2187,8 +2187,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2201,8 +2201,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2215,8 +2215,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2229,8 +2229,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2244,8 +2244,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2259,8 +2259,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2274,8 +2274,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2288,8 +2288,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2302,8 +2302,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2316,8 +2316,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2330,8 +2330,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2344,8 +2344,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Shout/Kekkaidan",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2358,8 +2358,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2372,8 +2372,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2386,8 +2386,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2400,8 +2400,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2414,8 +2414,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2428,8 +2428,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2443,8 +2443,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2458,8 +2458,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2472,8 +2472,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2486,8 +2486,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2500,8 +2500,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2514,8 +2514,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2528,8 +2528,8 @@
   "cells": [
    12
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Shout/Silence!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2542,8 +2542,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2556,8 +2556,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2570,8 +2570,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2584,8 +2584,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2598,8 +2598,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2612,8 +2612,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2626,8 +2626,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2641,8 +2641,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2655,8 +2655,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2669,8 +2669,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2683,8 +2683,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2697,8 +2697,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2711,8 +2711,8 @@
   "cells": [
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Shout/Here I go!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2725,8 +2725,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2739,8 +2739,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2753,8 +2753,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2767,8 +2767,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2781,8 +2781,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2795,8 +2795,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2810,8 +2810,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2825,8 +2825,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2839,8 +2839,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2853,8 +2853,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2867,8 +2867,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2881,8 +2881,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2895,8 +2895,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Shout/Fool",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2909,8 +2909,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2923,8 +2923,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2937,8 +2937,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2951,8 +2951,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2965,8 +2965,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2979,8 +2979,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -2993,8 +2993,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3008,8 +3008,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3022,8 +3022,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3036,8 +3036,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3050,8 +3050,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3064,8 +3064,8 @@
   "cells": [
    12
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Shout/Elbow!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3078,8 +3078,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3092,8 +3092,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3106,8 +3106,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3120,8 +3120,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3134,8 +3134,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3148,8 +3148,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3162,8 +3162,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3177,8 +3177,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3191,8 +3191,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3205,8 +3205,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3219,8 +3219,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3233,8 +3233,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3247,8 +3247,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Shout/Kuchibashi",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3261,8 +3261,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3275,8 +3275,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3289,8 +3289,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3303,8 +3303,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3317,8 +3317,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3331,8 +3331,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3345,8 +3345,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3360,8 +3360,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3374,8 +3374,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3388,8 +3388,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3402,8 +3402,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3416,8 +3416,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3430,8 +3430,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Shout/Princess!",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3444,8 +3444,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Shout/Nadare",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3458,8 +3458,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Hit 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3472,8 +3472,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Hit 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3486,8 +3486,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Cut-in",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3500,8 +3500,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Hit 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3514,8 +3514,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Super Special Move",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3528,8 +3528,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Special Move 4",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3542,8 +3542,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Special Move 3",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3556,8 +3556,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Special Move 2",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3571,8 +3571,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Special Move 1",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3585,8 +3585,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Combo",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3599,8 +3599,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3613,8 +3613,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Long-Range Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3627,8 +3627,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Close Attack",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3641,8 +3641,8 @@
   "cells": [
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Leap Out of Water",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3655,8 +3655,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren: Enter Water",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3669,8 +3669,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3683,8 +3683,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3697,8 +3697,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3711,8 +3711,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3725,8 +3725,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3739,8 +3739,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3753,8 +3753,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3767,8 +3767,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon: Throw",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3781,8 +3781,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca: Long-Range Attack A",
+  "status": "tl",
   "ctx": "sound test: voice clip name (Name: description)",
   "max": 14
  },
@@ -3795,8 +3795,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Power Charge Off",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3809,8 +3809,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Power Charge",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3823,8 +3823,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Knockdown: Light",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3837,8 +3837,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Knockdown: Normal",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3851,8 +3851,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Knockdown: Heavy",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3865,8 +3865,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Strong C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3879,8 +3879,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Strong B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3893,8 +3893,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Strong A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3907,8 +3907,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Medium C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3921,8 +3921,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Medium B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3935,8 +3935,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Medium A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3949,8 +3949,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Weak C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3963,8 +3963,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Weak B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3977,8 +3977,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Whoosh: Weak A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -3991,8 +3991,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Strong C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4005,8 +4005,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Strong B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4019,8 +4019,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Strong A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4033,8 +4033,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Medium C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4047,8 +4047,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Medium B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4061,8 +4061,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Medium A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4075,8 +4075,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Weak C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4089,8 +4089,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Weak B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4103,8 +4103,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Slash/Weak A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4117,8 +4117,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Strong C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4131,8 +4131,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Strong B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4145,8 +4145,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Strong A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4159,8 +4159,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Medium C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4173,8 +4173,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Medium B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4187,8 +4187,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Medium A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4201,8 +4201,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Weak C",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4215,8 +4215,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Weak B",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4229,8 +4229,8 @@
   "cells": [
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Damage: Strike/Weak A",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4243,8 +4243,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Guard: Slash/Strong",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4257,8 +4257,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Guard: Slash/Medium",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4271,8 +4271,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Guard: Slash/Weak",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4285,8 +4285,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Guard: Strike/Strong",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4299,8 +4299,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Guard: Strike/Medium",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4313,8 +4313,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Guard: Strike/Weak",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4327,8 +4327,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Landing",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4341,8 +4341,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Jump",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4355,8 +4355,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "The Gate Opens",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4369,8 +4369,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "SODOM Collapse End",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4383,8 +4383,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "SODOM Collapse",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4397,8 +4397,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori Falls",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4411,8 +4411,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Pause",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4425,8 +4425,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Message Advance",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4439,8 +4439,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Yes/No",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4453,8 +4453,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Switch",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4467,8 +4467,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Can't Select Warning",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4481,8 +4481,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Select",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4495,8 +4495,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Cancel",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4509,8 +4509,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Confirm",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4523,8 +4523,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Start",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4537,8 +4537,8 @@
   "cells": [
    13
   ],
-  "en": "",
-  "status": "",
+  "en": "CONTINUE Countdown",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4551,8 +4551,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "V.S.",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4565,8 +4565,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Title Display",
+  "status": "tl",
   "ctx": "sound test: sound effect name",
   "max": 14
  },
@@ -4579,8 +4579,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Uruha's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4593,8 +4593,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Princess Rescued",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4607,8 +4607,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Special Move Get",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4621,8 +4621,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Rage Explodes",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4635,8 +4635,8 @@
   "cells": [
    15
   ],
-  "en": "",
-  "status": "",
+  "en": "SR: Princess's Secret, Ninja's Courage",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4649,8 +4649,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori's Theme 2",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4663,8 +4663,8 @@
   "cells": [
    11
   ],
-  "en": "",
-  "status": "",
+  "en": "Game Over GOOD",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4677,8 +4677,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Shishiten's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4691,8 +4691,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Opening",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4705,8 +4705,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Hokage's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4719,8 +4719,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "BGM: Ominous",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4733,8 +4733,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Rivalry",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4747,8 +4747,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Defeat Scene 2",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4761,8 +4761,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Defeat Scene 1",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4775,8 +4775,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Victory Scene 4",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4789,8 +4789,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Victory Scene 3",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4803,8 +4803,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Victory Scene 2",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4817,8 +4817,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "Victory Scene 1",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4831,8 +4831,8 @@
   "cells": [
    8
   ],
-  "en": "",
-  "status": "",
+  "en": "Koran Mori's Theme 1",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4845,8 +4845,8 @@
   "cells": [
    3
   ],
-  "en": "",
-  "status": "",
+  "en": "Mode",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4859,8 +4859,8 @@
   "cells": [
    10
   ],
-  "en": "",
-  "status": "",
+  "en": "Game Over BAD",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4873,8 +4873,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "BGM: Sorrow",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4887,8 +4887,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Koganei's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4901,8 +4901,8 @@
   "cells": [
    7
   ],
-  "en": "",
-  "status": "",
+  "en": "Shiguma's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4915,8 +4915,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Hiruko's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4929,8 +4929,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Renge's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4943,8 +4943,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Kurei's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4957,8 +4957,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Kadotsu's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4971,8 +4971,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Mokuren's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4985,8 +4985,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Domon's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -4999,8 +4999,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Saicho's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -5013,8 +5013,8 @@
   "cells": [
    4
   ],
-  "en": "",
-  "status": "",
+  "en": "Family Time",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -5027,8 +5027,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Mikagami's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -5041,8 +5041,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Fuko's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -5055,8 +5055,8 @@
   "cells": [
    6
   ],
-  "en": "",
-  "status": "",
+  "en": "Recca's Theme",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -5069,8 +5069,8 @@
   "cells": [
    5
   ],
-  "en": "",
-  "status": "",
+  "en": "BGM Off",
+  "status": "tl",
   "ctx": "sound test: music track name",
   "max": 14
  },
@@ -5083,8 +5083,8 @@
   "cells": [
    13
   ],
-  "en": "",
-  "status": "",
+  "en": "Failed to save data.",
+  "status": "tl",
   "ctx": "save error message"
  },
  {
@@ -5097,8 +5097,8 @@
    11,
    9
   ],
-  "en": "",
-  "status": "",
+  "en": "Save data is corrupted. Initializing...",
+  "status": "tl",
   "ctx": "save error message"
  }
 ]

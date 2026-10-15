@@ -2,847 +2,847 @@
  {
   "id": "ac13_000",
   "jp": "うっし！%nＣＤを早く手に入れて%n柳を助けないとね！",
-  "en": "",
-  "status": ""
+  "en": "All right! Gotta grab a CD fast and go save Yanagi!",
+  "status": "tl"
  },
  {
   "id": "ac13_001",
   "jp": "待ちな！",
-  "en": "",
-  "status": ""
+  "en": "Hold it right there!",
+  "status": "tl"
  },
  {
   "id": "ac13_002",
   "jp": "あり？%n私が２人…？",
-  "en": "",
-  "status": ""
+  "en": "Huh? There's two of me...?",
+  "status": "tl"
  },
  {
   "id": "ac13_003",
   "jp": "なーんて言ってる%n場合じゃないか。%nアンタ誰よ？",
-  "en": "",
-  "status": ""
+  "en": "...Guess this isn't the time to be saying stuff like that. Who the heck are you?",
+  "status": "tl"
  },
  {
   "id": "ac13_004",
   "jp": "この先に行きたかったら%n私を倒していきな！",
-  "en": "",
-  "status": ""
+  "en": "If you wanna go any further, you'll have to beat me first!",
+  "status": "tl"
  },
  {
   "id": "ac13_005",
   "jp": "へへーん！　上等！",
-  "en": "",
-  "status": ""
+  "en": "Heh heh! Bring it on!",
+  "status": "tl"
  },
  {
   "id": "ac13_006",
   "jp": "何処の誰だか知らないけど、%nその化けの皮、%nひっぺがしてやる！！",
-  "en": "",
-  "status": ""
+  "en": "I don't know who or where you came from, but I'm gonna rip that disguise right off you!!",
+  "status": "tl"
  },
  {
   "id": "ac13_007",
   "jp": "どうしたでゴザル、風子殿。%nこの程度の力しか持たぬ%nおなごでござったか？",
-  "en": "",
-  "status": ""
+  "en": "What is the matter, Lady Fuko? Are you truly a girl of so little strength?",
+  "status": "tl"
  },
  {
   "id": "ac13_008",
   "jp": "某に負けるようでは%nここから先に行っても%n駄目だと思うでゴザルよ…。",
-  "en": "",
-  "status": ""
+  "en": "If you lose to this one, I daresay going any further would be hopeless...",
+  "status": "tl"
  },
  {
   "id": "ac13_009",
   "jp": "んんんっ…！！",
-  "en": "",
-  "status": ""
+  "en": "Nnnngh...!!",
+  "status": "tl"
  },
  {
   "id": "ac13_010",
   "jp": "イエーイ！%n風子ちゃん強ーい！！%n本物はこうでなくっちゃ！",
-  "en": "",
-  "status": ""
+  "en": "Yeah! Fuko's so strong!! That's how the real deal does it!",
+  "status": "tl"
  },
  {
   "id": "ac13_011",
   "jp": "あいたたた…%nかなわんでゴザル…",
-  "en": "",
-  "status": ""
+  "en": "Ow ow ow... This one is no match for you...",
+  "status": "tl"
  },
  {
   "id": "ac13_012",
   "jp": "さすが、%n風子殿でゴザルな。",
-  "en": "",
-  "status": ""
+  "en": "As expected of Lady Fuko.",
+  "status": "tl"
  },
  {
   "id": "ac13_013",
   "jp": "アンタ火車丸じゃないの。%nこんな所で何やってんのよ。",
-  "en": "",
-  "status": ""
+  "en": "Hey, you're Kashamaru! What are you doing in a place like this?",
+  "status": "tl"
  },
  {
   "id": "ac13_014",
   "jp": "風子殿たちの%n応援に来たでゴザルよ。",
-  "en": "",
-  "status": ""
+  "en": "This one came to lend you all a hand, Lady Fuko.",
+  "status": "tl"
  },
  {
   "id": "ac13_015",
   "jp": "じゃ、なんで、%n私に化けたりしてんのよ！？%n固羅！",
-  "en": "",
-  "status": ""
+  "en": "Then why'd you go and turn yourself into me!? Hey!",
+  "status": "tl"
  },
  {
   "id": "ac13_016",
   "jp": "ちょっとした挨拶でゴザル。%n許して下され。",
-  "en": "",
-  "status": ""
+  "en": "Merely a small greeting. Pray forgive this one.",
+  "status": "tl"
  },
  {
   "id": "ac13_017",
   "jp": "ここから先は本当の敵が%nたくさん居るでゴザル。%n気をつけて進んで下され。",
-  "en": "",
-  "status": ""
+  "en": "Beyond here lie many true enemies. Pray proceed with caution.",
+  "status": "tl"
  },
  {
   "id": "ac13_018",
   "jp": "うん！　ありがと！%nじゃあね！",
-  "en": "",
-  "status": ""
+  "en": "Okay! Thanks! See ya!",
+  "status": "tl"
  },
  {
   "id": "ac13_019",
   "jp": "んー、分かれ道だ。%nどっちへ行こう？",
-  "en": "",
-  "status": ""
+  "en": "Hmm, a fork in the road. Which way should I go?",
+  "status": "tl"
  },
  {
   "id": "ac13_020",
   "jp": "%T0バイオノイドドームへ向かう%nパルテノンへ向かう",
-  "en": "",
-  "status": ""
+  "en": "%T0Head for the Bionoid Dome%nHead for the Parthenon",
+  "status": "tl"
  },
  {
   "id": "ac13_021",
   "jp": "んじゃ！%nこっちへ行ってみますか！",
-  "en": "",
-  "status": ""
+  "en": "Okay! Let's try this way!",
+  "status": "tl"
  },
  {
   "id": "ac13_022",
   "jp": "なんだろ？%n血の臭いがする…。",
-  "en": "",
-  "status": ""
+  "en": "What's that? I smell blood...",
+  "status": "tl"
  },
  {
   "id": "ac13_023",
   "jp": "ようこそ、ＳＯＤＯＭへ。",
-  "en": "",
-  "status": ""
+  "en": "Welcome to SODOM.",
+  "status": "tl"
  },
  {
   "id": "ac13_024",
   "jp": "はじめまして。%n私の名は蛭湖。%n「死四天」のメンバーだ。",
-  "en": "",
-  "status": ""
+  "en": "A pleasure to meet you. My name is Hiruko. I am a member of the Shishiten.",
+  "status": "tl"
  },
  {
   "id": "ac13_025",
   "jp": "礼儀正しいね、アンタ。%n私は美少女戦闘野郎%n風子ちゃんだ！",
-  "en": "",
-  "status": ""
+  "en": "Pretty polite, aren't ya? I'm the beautiful battle babe, Fuko!",
+  "status": "tl"
  },
  {
   "id": "ac13_026",
   "jp": "そうか。%n君が、風神を使うという%n火影の者だな。",
-  "en": "",
-  "status": ""
+  "en": "I see. So you are the one of the Hokage who wields Fujin.",
+  "status": "tl"
  },
  {
   "id": "ac13_027",
   "jp": "知ってるンなら話は早いね。%n私は先へ行きたいんだ。%n邪魔しないでくれる？",
-  "en": "",
-  "status": ""
+  "en": "If you know that, this'll be quick. I wanna get through here. Mind staying out of my way?",
+  "status": "tl"
  },
  {
   "id": "ac13_028",
   "jp": "断る。%n君をここから先へ%n通すわけにはいかない。",
-  "en": "",
-  "status": ""
+  "en": "I refuse. I cannot allow you to pass beyond this point.",
+  "status": "tl"
  },
  {
   "id": "ac13_029",
   "jp": "そんじゃあ、力ずくだ！%n手加減しないよ！！",
-  "en": "",
-  "status": ""
+  "en": "Then I'll do it by force! I won't hold back!!",
+  "status": "tl"
  },
  {
   "id": "ac13_030",
   "jp": "手加減など無用！%nいくぞ！　火影の者！！",
-  "en": "",
-  "status": ""
+  "en": "There is no need to hold back! Here I come, Hokage!!",
+  "status": "tl"
  },
  {
   "id": "ac13_031",
   "jp": "さすが風神の使い手だ。%nだが…%n我々の敵ではない。",
-  "en": "",
-  "status": ""
+  "en": "As expected of the wielder of Fujin. But... you are no match for us.",
+  "status": "tl"
  },
  {
   "id": "ac13_032",
   "jp": "こいつ…っ！%n強いっ…！！　…ぐっ！",
-  "en": "",
-  "status": ""
+  "en": "This guy...! He's strong...!! ...Ngh!",
+  "status": "tl"
  },
  {
   "id": "ac13_033",
   "jp": "行け、火影の者…。%n私の完敗だ。",
-  "en": "",
-  "status": ""
+  "en": "Go, Hokage... I am utterly defeated.",
+  "status": "tl"
  },
  {
   "id": "ac13_034",
   "jp": "ふむ。なかなかいい腕だけど%nこの風子ちゃんの敵じゃ%nなかったね。",
-  "en": "",
-  "status": ""
+  "en": "Hmm. Not bad at all, but you were no match for the great Fuko.",
+  "status": "tl"
  },
  {
   "id": "ac13_035",
   "jp": "風子サマーッ！！",
-  "en": "",
-  "status": ""
+  "en": "Lady Fukooo!!",
+  "status": "tl"
  },
  {
   "id": "ac13_036",
   "jp": "うわっ！%nなんだよ！？　いきなり！！",
-  "en": "",
-  "status": ""
+  "en": "Whoa! What!? Out of nowhere!!",
+  "status": "tl"
  },
  {
   "id": "ac13_037",
   "jp": "風子サマが心配で%n探しちゃいました！！",
-  "en": "",
-  "status": ""
+  "en": "I was so worried about you, Lady Fuko, I came looking for you!!",
+  "status": "tl"
  },
  {
   "id": "ac13_038",
   "jp": "…って、なんでぇ。%nもう、終わったのか。",
-  "en": "",
-  "status": ""
+  "en": "...Huh, what the heck. It's already over?",
+  "status": "tl"
  },
  {
   "id": "ac13_039",
   "jp": "遊んでるヒマはないの！%n次、行くよ！　土門！",
-  "en": "",
-  "status": ""
+  "en": "We don't have time to goof around! On to the next one, Domon!",
+  "status": "tl"
  },
  {
   "id": "ac13_040",
   "jp": "アイ！　風子サマ！",
-  "en": "",
-  "status": ""
+  "en": "Aye aye, Lady Fuko!",
+  "status": "tl"
  },
  {
   "id": "ac13_041",
   "jp": "なーんか%nやなところに%n来ちゃったねぇ…。",
-  "en": "",
-  "status": ""
+  "en": "Man, I ended up somewhere really nasty...",
+  "status": "tl"
  },
  {
   "id": "ac13_042",
   "jp": "……？%nなに？　この気配…！？",
-  "en": "",
-  "status": ""
+  "en": "......? What? This presence...!?",
+  "status": "tl"
  },
  {
   "id": "ac13_043",
   "jp": "フーッ！！　お前！%n誰！？%n火影の　者…？",
-  "en": "",
-  "status": ""
+  "en": "Hssss!! You! Who!? Hokage... one?",
+  "status": "tl"
  },
  {
   "id": "ac13_044",
   "jp": "何、コイツ…！？%n今までの奴より、%n手ごたえありそう…！！",
-  "en": "",
-  "status": ""
+  "en": "What IS this guy...!? He looks tougher than anyone so far...!!",
+  "status": "tl"
  },
  {
   "id": "ac13_045",
   "jp": "ヒャヒャヒャヒャ！！%n火影！　やっと　見つけた！%nお前　楽しめそう！！",
-  "en": "",
-  "status": ""
+  "en": "Hyahyahyahya!! Hokage! Finally... found! You... fun!!",
+  "status": "tl"
  },
  {
   "id": "ac13_046",
   "jp": "やっばー……%nこういうの、苦手だわ……。",
-  "en": "",
-  "status": ""
+  "en": "Uh-oh... I'm no good with this kind of thing...",
+  "status": "tl"
  },
  {
   "id": "ac13_047",
   "jp": "倒す！　火影！%nゆっくり　倒す！　楽しむ！%nヒャヒャヒャヒャッ！！",
-  "en": "",
-  "status": ""
+  "en": "Beat! Hokage! Beat slow! Have fun! Hyahyahyahya!!",
+  "status": "tl"
  },
  {
   "id": "ac13_048",
   "jp": "だめじゃん……。%n話も通じそうにないわね。%nやるっきゃないか……！",
-  "en": "",
-  "status": ""
+  "en": "No use... Doesn't look like I can talk to him, either. Guess I've got no choice...!",
+  "status": "tl"
  },
  {
   "id": "ac13_049",
   "jp": "ヒャッヒャッヒャ！！",
-  "en": "",
-  "status": ""
+  "en": "Hyah hyah hyah!!",
+  "status": "tl"
  },
  {
   "id": "ac13_050",
   "jp": "ヒャヒャヒャヒャ！%n久しぶり！　楽しい！！%n火影！　倒した！　倒した！",
-  "en": "",
-  "status": ""
+  "en": "Hyahyahyahya! Long time! Fun!! Hokage! Beat! Beat!",
+  "status": "tl"
  },
  {
   "id": "ac13_051",
   "jp": "なんな…ん…%n強い…よ…こいつッ…",
-  "en": "",
-  "status": ""
+  "en": "What the... heck... He's... strong...",
+  "status": "tl"
  },
  {
   "id": "ac13_052",
   "jp": "ふう…%nなんとかなったね！",
-  "en": "",
-  "status": ""
+  "en": "Phew... Somehow I pulled it off!",
+  "status": "tl"
  },
  {
   "id": "ac13_053",
   "jp": "風子サマーッ！！",
-  "en": "",
-  "status": ""
+  "en": "Lady Fukooo!!",
+  "status": "tl"
  },
  {
   "id": "ac13_054",
   "jp": "うわっ！%nなんだよ！　いきなり！！",
-  "en": "",
-  "status": ""
+  "en": "Whoa! What! Out of nowhere!!",
+  "status": "tl"
  },
  {
   "id": "ac13_055",
   "jp": "風子サマが心配で%n探しちゃいました！！",
-  "en": "",
-  "status": ""
+  "en": "I was so worried about you, Lady Fuko, I came looking for you!!",
+  "status": "tl"
  },
  {
   "id": "ac13_056",
   "jp": "…って、なんでぇ。%nもう、終わったのか。",
-  "en": "",
-  "status": ""
+  "en": "...Huh, what the heck. It's already over?",
+  "status": "tl"
  },
  {
   "id": "ac13_057",
   "jp": "遊んでるヒマはないの！%n次、行くよ！　土門！",
-  "en": "",
-  "status": ""
+  "en": "We don't have time to goof around! On to the next one, Domon!",
+  "status": "tl"
  },
  {
   "id": "ac13_058",
   "jp": "アイ！　風子サマ！",
-  "en": "",
-  "status": ""
+  "en": "Aye aye, Lady Fuko!",
+  "status": "tl"
  },
  {
   "id": "ac13_059",
   "jp": "おっとっと！%nこれを忘れちゃいけない！！%nＣＤ、もらってくよ！！",
-  "en": "",
-  "status": ""
+  "en": "Whoops! Can't forget this!! I'm taking the CD!!",
+  "status": "tl"
  },
  {
   "id": "ac13_060",
   "jp": "オォオォオォ…！！！%nオレ　負ける　ない！！%nグハッ……",
-  "en": "",
-  "status": ""
+  "en": "Oooooh...!!! Me... no lose!! Guhah...",
+  "status": "tl"
  },
  {
   "id": "ac13_061",
   "jp": "また、分かれ道だな。%nどうする？",
-  "en": "",
-  "status": ""
+  "en": "Another fork in the road. What now?",
+  "status": "tl"
  },
  {
   "id": "ac13_062",
   "jp": "時間が無いから、%n別々に行くしかないね。%nどっちへいこうかな。",
-  "en": "",
-  "status": ""
+  "en": "We're short on time, so we've gotta split up. Which way should I go?",
+  "status": "tl"
  },
  {
   "id": "ac13_063",
   "jp": "研究所へ向かう%n貯水池へ向かう",
-  "en": "",
-  "status": ""
+  "en": "Head for the Laboratory%nHead for the Reservoir",
+  "status": "tl"
  },
  {
   "id": "ac13_064",
   "jp": "よし！　私は研究所へ行く！%n土門は貯水池！%nゲート前で合流！　以上！",
-  "en": "",
-  "status": ""
+  "en": "Okay! I'll take the Laboratory! Domon, the Reservoir! We meet up in front of the Gate! That's all!",
+  "status": "tl"
  },
  {
   "id": "ac13_065",
   "jp": "ウッス！%n了解ッス、風子サマ！",
-  "en": "",
-  "status": ""
+  "en": "Yessir! Roger that, Lady Fuko!",
+  "status": "tl"
  },
  {
   "id": "ac13_066",
   "jp": "よし！　私は貯水池へ行く！%n土門は研究所！%nゲート前で合流！　以上！",
-  "en": "",
-  "status": ""
+  "en": "Okay! I'll take the Reservoir! Domon, the Laboratory! We meet up in front of the Gate! That's all!",
+  "status": "tl"
  },
  {
   "id": "ac13_067",
   "jp": "ウッス！%n了解ッス、風子サマ！",
-  "en": "",
-  "status": ""
+  "en": "Yessir! Roger that, Lady Fuko!",
+  "status": "tl"
  },
  {
   "id": "ac13_068",
   "jp": "……って。%n一緒じゃダメなの？",
-  "en": "",
-  "status": ""
+  "en": "...Wait. We can't go together?",
+  "status": "tl"
  },
  {
   "id": "ac13_069",
   "jp": "こっちかな…%nって…！%nなにアレぇぇーッ！？",
-  "en": "",
-  "status": ""
+  "en": "This way, maybe... Wait...! What the heck is THAT!?",
+  "status": "tl"
  },
  {
   "id": "ac13_070",
   "jp": "グギャーッ！！",
-  "en": "",
-  "status": ""
+  "en": "Gugyaaah!!",
+  "status": "tl"
  },
  {
   "id": "ac13_071",
   "jp": "ようこそ、風子さん。%n死愚魔を見たのは%n初めてだったかしら？",
-  "en": "",
-  "status": ""
+  "en": "Welcome, Fuko. Is this your first time seeing a Shiguma?",
+  "status": "tl"
  },
  {
   "id": "ac13_072",
   "jp": "あ、アンタ……%nってゆーか、%nなんなの、あのでかいの…。",
-  "en": "",
-  "status": ""
+  "en": "Y-you... I mean, what the heck is that huge thing...?",
+  "status": "tl"
  },
  {
   "id": "ac13_073",
   "jp": "グギャギャギャーッ！！！",
-  "en": "",
-  "status": ""
+  "en": "Gugyagyagyaaah!!!",
+  "status": "tl"
  },
  {
   "id": "ac13_074",
   "jp": "うわーっ！！%nいきなりナンか%n撃ってくるなあぁ！！！",
-  "en": "",
-  "status": ""
+  "en": "Waaah!! Don't just start shooting stuff at me out of nowhere!!!",
+  "status": "tl"
  },
  {
   "id": "ac13_075",
   "jp": "ドドドドドドド…！！！%nドドドド……",
-  "en": "",
-  "status": ""
+  "en": "Boom boom boom boom...!!! Boom boom...",
+  "status": "tl"
  },
  {
   "id": "ac13_076",
   "jp": "大丈夫ですか？%n風子さん。",
-  "en": "",
-  "status": ""
+  "en": "Are you all right, Fuko?",
+  "status": "tl"
  },
  {
   "id": "ac13_077",
   "jp": "あてててて…。%nえ！？　だ、誰？？",
-  "en": "",
-  "status": ""
+  "en": "Owowow... Huh!? Wh-who's that??",
+  "status": "tl"
  },
  {
   "id": "ac13_078",
   "jp": "助けにまいりました。%n王子様です。",
-  "en": "",
-  "status": ""
+  "en": "I've come to rescue you. I'm your prince.",
+  "status": "tl"
  },
  {
   "id": "ac13_079",
   "jp": "雷覇くん！？",
-  "en": "",
-  "status": ""
+  "en": "Raiha!?",
+  "status": "tl"
  },
  {
   "id": "ac13_080",
   "jp": "あなたは……！%n麗の……",
-  "en": "",
-  "status": ""
+  "en": "You...! Of the Uruha...",
+  "status": "tl"
  },
  {
   "id": "ac13_081",
   "jp": "まぁ…いいです。%n邪魔をするなら%nあなたも一緒に倒しますよ。",
-  "en": "",
-  "status": ""
+  "en": "Well... no matter. If you get in my way, I'll take you down along with her.",
+  "status": "tl"
  },
  {
   "id": "ac13_082",
   "jp": "聞いて下さい、風子さん。%nあの生き物は強敵です。%nそれでも、戦いますか？",
-  "en": "",
-  "status": ""
+  "en": "Listen to me, Fuko. That creature is a formidable foe. Will you still fight it?",
+  "status": "tl"
  },
  {
   "id": "ac13_083",
   "jp": "雷覇……くん……？",
-  "en": "",
-  "status": ""
+  "en": "Raiha...?",
+  "status": "tl"
  },
  {
   "id": "ac13_084",
   "jp": "私の助けが要りますか…？%n風子さん…。",
-  "en": "",
-  "status": ""
+  "en": "Do you need my help...? Fuko...",
+  "status": "tl"
  },
  {
   "id": "ac13_085",
   "jp": "……！！",
-  "en": "",
-  "status": ""
+  "en": "......!!",
+  "status": "tl"
  },
  {
   "id": "ac13_086",
   "jp": "ううん、いらないよ！%nアイツは私だけで%nぶっ倒す！！",
-  "en": "",
-  "status": ""
+  "en": "Nope, I don't need it! I'm gonna knock that thing flat all by myself!!",
+  "status": "tl"
  },
  {
   "id": "ac13_087",
   "jp": "……ハイ。%n合格です。風子さん。",
-  "en": "",
-  "status": ""
+  "en": "...Yes. You pass, Fuko.",
+  "status": "tl"
  },
  {
   "id": "ac13_088",
   "jp": "…………ちょっと…。",
-  "en": "",
-  "status": ""
+  "en": ".........Excuse me...",
+  "status": "tl"
  },
  {
   "id": "ac13_089",
   "jp": "無視されるのって%n私、好きじゃないんです。",
-  "en": "",
-  "status": ""
+  "en": "I really don't like being ignored.",
+  "status": "tl"
  },
  {
   "id": "ac13_090",
   "jp": "風子さん。あなたは%n私の思ったとおりの人だ。%n御武運を…！",
-  "en": "",
-  "status": ""
+  "en": "Fuko. You are just the person I thought you were. Good luck in battle...!",
+  "status": "tl"
  },
  {
   "id": "ac13_091",
   "jp": "死愚魔！！%nふたりとも%nやっちゃいなさい！！",
-  "en": "",
-  "status": ""
+  "en": "Shiguma!! Finish them both off!!",
+  "status": "tl"
  },
  {
   "id": "ac13_092",
   "jp": "ギョェーッ！！！",
-  "en": "",
-  "status": ""
+  "en": "Gyoeeeh!!!",
+  "status": "tl"
  },
  {
   "id": "ac13_093",
   "jp": "アンタの相手は私！%n今度はこっちから%nいくよ！！！",
-  "en": "",
-  "status": ""
+  "en": "I'm the one you're fighting! This time I'm coming at you!!!",
+  "status": "tl"
  },
  {
   "id": "ac13_094",
   "jp": "南無阿弥陀仏…。",
-  "en": "",
-  "status": ""
+  "en": "Namu Amida Butsu...",
+  "status": "tl"
  },
  {
   "id": "ac13_095",
   "jp": "グギャギャギャ%nギャギャギャー！！",
-  "en": "",
-  "status": ""
+  "en": "Gugyagyagya gyagyagyaaah!!",
+  "status": "tl"
  },
  {
   "id": "ac13_096",
   "jp": "くっ……そぉ……",
-  "en": "",
-  "status": ""
+  "en": "Dam...mit...",
+  "status": "tl"
  },
  {
   "id": "ac13_097",
   "jp": "やったね！%n完璧！！",
-  "en": "",
-  "status": ""
+  "en": "Did it! Perfect!!",
+  "status": "tl"
  },
  {
   "id": "ac13_098",
   "jp": "死愚魔が…%n…やられた……？%nそんな……",
-  "en": "",
-  "status": ""
+  "en": "The Shiguma... was beaten...? No way...",
+  "status": "tl"
  },
  {
   "id": "ac13_099",
   "jp": "見てくれたァ！？%n雷覇くーん！！%n……アレ？　いないや……。",
-  "en": "",
-  "status": ""
+  "en": "Did you see that!? Raihaaa!! ...Huh? He's gone...",
+  "status": "tl"
  },
  {
   "id": "ac13_100",
   "jp": "ま、いっか。%n先へ行こうっと！！",
-  "en": "",
-  "status": ""
+  "en": "Oh well. On I go!!",
+  "status": "tl"
  },
  {
   "id": "ac13_101",
   "jp": "風子さん……。",
-  "en": "",
-  "status": ""
+  "en": "Fuko...",
+  "status": "tl"
  },
  {
   "id": "ac13_102",
   "jp": "戦いはこれからもっと%n厳しくなるでしょう。%n負けずに頑張って下さい。",
-  "en": "",
-  "status": ""
+  "en": "The battles ahead will only get harder. Don't give in, and do your best.",
+  "status": "tl"
  },
  {
   "id": "ac13_103",
   "jp": "ここの部屋かな？%nよしゃ！　いっちょ%n大暴れしたるかっ♪",
-  "en": "",
-  "status": ""
+  "en": "Is it this room? All right! Time to go wild!",
+  "status": "tl"
  },
  {
   "id": "ac13_104",
   "jp": "…なんだ。%n烈火じゃねぇのかよ…。",
-  "en": "",
-  "status": ""
+  "en": "...Tch. It's not Recca...",
+  "status": "tl"
  },
  {
   "id": "ac13_105",
   "jp": "ざーんねんでした。%n風子ちゃんが相手じゃ%n不満かな？",
-  "en": "",
-  "status": ""
+  "en": "Too bad, so sad. Not happy with Fuko as your opponent?",
+  "status": "tl"
  },
  {
   "id": "ac13_106",
   "jp": "…まあ、いいか…%n火影の奴をいっぴきずつ%n倒していくか……",
-  "en": "",
-  "status": ""
+  "en": "...Well, whatever... I'll just take out those Hokage punks one at a time...",
+  "status": "tl"
  },
  {
   "id": "ac13_107",
   "jp": "ひとりずつなら%nたいしたことねぇしな…",
-  "en": "",
-  "status": ""
+  "en": "One at a time, they're nothing special...",
+  "status": "tl"
  },
  {
   "id": "ac13_108",
   "jp": "オイ、固羅！！%nこの風子ちゃんを%nなめんなよ！！",
-  "en": "",
-  "status": ""
+  "en": "Hey, you!! Don't you look down on Fuko!!",
+  "status": "tl"
  },
  {
   "id": "ac13_109",
   "jp": "甘く見てると%n後悔させちゃうぞ！",
-  "en": "",
-  "status": ""
+  "en": "Underestimate me and you'll regret it!",
+  "status": "tl"
  },
  {
   "id": "ac13_110",
   "jp": "ふざけるなよ…てめぇ。%nおめぇらは５人だから%n強ぇだけなのさ。",
-  "en": "",
-  "status": ""
+  "en": "Don't make me laugh... you punk. You're only strong 'cause there's five of you.",
+  "status": "tl"
  },
  {
   "id": "ac13_111",
   "jp": "でもなぁ…%nひとりひとりになっちまえば%nなにもできねぇんだよ！！",
-  "en": "",
-  "status": ""
+  "en": "But y'know... once you're all split up, you can't do squat!!",
+  "status": "tl"
  },
  {
   "id": "ac13_112",
   "jp": "アンタと話してると%nほんっとムシズが走るよ…。",
-  "en": "",
-  "status": ""
+  "en": "Talking to you makes my skin crawl, seriously...",
+  "status": "tl"
  },
  {
   "id": "ac13_113",
   "jp": "そろそろいいでしょ？%n勝負しない！？",
-  "en": "",
-  "status": ""
+  "en": "That's enough, right? How about we fight!?",
+  "status": "tl"
  },
  {
   "id": "ac13_114",
   "jp": "いうじゃねぇか……%nそのへらず口を%n二度ときけなくしてやらぁ！",
-  "en": "",
-  "status": ""
+  "en": "Big talk... I'll make sure that smart mouth of yours never runs again!",
+  "status": "tl"
  },
  {
   "id": "ac13_115",
   "jp": "それはこっちの%nセリフ！　いくよっ！！",
-  "en": "",
-  "status": ""
+  "en": "That's my line! Here I come!!",
+  "status": "tl"
  },
  {
   "id": "ac13_116",
   "jp": "ぎゃはははは！%n弱えぇ！！%n弱えよこいつ！",
-  "en": "",
-  "status": ""
+  "en": "Gyahahahaha! Weak!! This chick is weak!",
+  "status": "tl"
  },
  {
   "id": "ac13_117",
   "jp": "やっぱりおめぇらは%nひとりじゃなにも%nできねえのさ！！",
-  "en": "",
-  "status": ""
+  "en": "Just like I said, you punks can't do squat on your own!!",
+  "status": "tl"
  },
  {
   "id": "ac13_118",
   "jp": "な…にぉ……！",
-  "en": "",
-  "status": ""
+  "en": "Wh...at...!",
+  "status": "tl"
  },
  {
   "id": "ac13_119",
   "jp": "うっし！　終了！",
-  "en": "",
-  "status": ""
+  "en": "All right! Done!",
+  "status": "tl"
  },
  {
   "id": "ac13_120",
   "jp": "うおおぉぉ…っ！！%nなんで…だよぉ…ぉ！！",
-  "en": "",
-  "status": ""
+  "en": "Uoooh...!! Why... damn iiit...!!",
+  "status": "tl"
  },
  {
   "id": "ac13_121",
   "jp": "アンタ、そんなんじゃ%n絶対烈火には勝てないよ。%nじゃぁね！",
-  "en": "",
-  "status": ""
+  "en": "With that attitude, you'll never beat Recca. See ya!",
+  "status": "tl"
  },
  {
   "id": "ac13_122",
   "jp": "あ！　来た来たァ！%nあなた、火影の人でしょ！%nえっとォ、名前は…",
-  "en": "",
-  "status": ""
+  "en": "Ah! Here you are! You're one of the Hokage people, right! Ummm, your name is...",
+  "status": "tl"
  },
  {
   "id": "ac13_123",
   "jp": "風神使い、霧沢風子！%n柳を返してもらいに来たよ！",
-  "en": "",
-  "status": ""
+  "en": "Fujin wielder Fuko Kirisawa! I've come to take Yanagi back!",
+  "status": "tl"
  },
  {
   "id": "ac13_124",
   "jp": "パパと融合しちゃう%n女の子のこと？%nだったら、この先にいるよ！",
-  "en": "",
-  "status": ""
+  "en": "You mean the girl who's gonna fuse with Papa? Then she's up ahead!",
+  "status": "tl"
  },
  {
   "id": "ac13_125",
   "jp": "でも、会えないの！%nあなたは私にここで%n倒されちゃうからっ！！",
-  "en": "",
-  "status": ""
+  "en": "But you won't get to see her! 'Cause I'm gonna beat you right here!!",
+  "status": "tl"
  },
  {
   "id": "ac13_126",
   "jp": "言いたいことは言った？%n邪魔するなら%nただじゃおかないよ！",
-  "en": "",
-  "status": ""
+  "en": "Said all you wanted to say? If you're in my way, you're gonna pay!",
+  "status": "tl"
  },
  {
   "id": "ac13_127",
   "jp": "パパーっ！　火影の人%nやっつけちゃうよーっ！",
-  "en": "",
-  "status": ""
+  "en": "Papaaa! I'm gonna beat the Hokage person!",
+  "status": "tl"
  },
  {
   "id": "ac13_128",
   "jp": "そしたらまた、煉華のこと%nいっぱい！　いっぱい！%n誉めてね！！",
-  "en": "",
-  "status": ""
+  "en": "And then you'll praise Renge lots! And lots! Okay!!",
+  "status": "tl"
  },
  {
   "id": "ac13_129",
   "jp": "キャハハハーッ！%nパパ！　パパ！%nみててくれたァ！？",
-  "en": "",
-  "status": ""
+  "en": "Kyahahahaa! Papa! Papa! Did you see!?",
+  "status": "tl"
  },
  {
   "id": "ac13_130",
   "jp": "火影の人倒したよーッ！！%nホラホラァ！！",
-  "en": "",
-  "status": ""
+  "en": "I beat the Hokage person!! Look, look!!",
+  "status": "tl"
  },
  {
   "id": "ac13_131",
   "jp": "ううっ……",
-  "en": "",
-  "status": ""
+  "en": "Ugh...",
+  "status": "tl"
  },
  {
   "id": "ac13_132",
   "jp": "うっし！%n風子ちゃんの勝ち！！",
-  "en": "",
-  "status": ""
+  "en": "All right! Fuko wins!!",
+  "status": "tl"
  },
  {
   "id": "ac13_133",
   "jp": "キャア…！%n痛いよォ……！%nパパ…痛いよォ…！！",
-  "en": "",
-  "status": ""
+  "en": "Kyaa...! It hurts...! Papa... it hurts...!!",
+  "status": "tl"
  },
  {
   "id": "ac13_134",
   "jp": "たいしたものじゃ！%nここまで良く、魔導具を%n使いこなしてきたものじゃ。",
-  "en": "",
-  "status": ""
+  "en": "Splendid! You've truly mastered your madogu to come this far.",
+  "status": "tl"
  },
  {
   "id": "ac13_135",
   "jp": "お主の風神も%n全ての力を出し切って%nくれるじゃろう！",
-  "en": "",
-  "status": ""
+  "en": "Your Fujin will surely bring out every last bit of its power for ye!",
+  "status": "tl"
  },
  {
   "id": "ac13_136",
   "jp": "心して進むがよい。%n風子！",
-  "en": "",
-  "status": ""
+  "en": "Steel yourself as you go on, Fuko!",
+  "status": "tl"
  },
  {
   "id": "ac13_137",
   "jp": "風子は%n「風神」（%B%P6Ｒ＋↑＋Ａ%S%P7）が%n使えるようになった！",
-  "en": "",
-  "status": ""
+  "en": "Fuko can now use \"Fujin\" (%B%P6Ｒ＋↑＋Ａ%S%P7)!",
+  "status": "tl"
  },
  {
   "id": "ac13_138",
   "jp": "見事強くなったな。%nびっくりする上達ぶりじゃ。%nじゃが一言だけ言っておく！",
-  "en": "",
-  "status": ""
+  "en": "You've grown strong indeed. Your progress is astonishing. But let me tell ye just one thing!",
+  "status": "tl"
  },
  {
   "id": "ac13_139",
   "jp": "煉華相手に情けは無用！%nお主が身につけられる全ての%n必殺技を使って戦うのじゃ！",
-  "en": "",
-  "status": ""
+  "en": "Show Renge no mercy! Fight with every special move you can master!",
+  "status": "tl"
  },
  {
   "id": "ac13_140",
   "jp": "魔導具は必ず%nお主の味方になる！%n良いな！",
-  "en": "",
-  "status": ""
+  "en": "Your madogu will always be on your side! Got that?",
+  "status": "tl"
  }
 ]

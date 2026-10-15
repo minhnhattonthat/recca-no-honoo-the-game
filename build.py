@@ -254,6 +254,8 @@ class Builder:
         self.build_sys()
         self.build_profiles()
         self.build_members()
+        import gfx
+        self.ranges += gfx.patch(self.out)
         self.finish()
         out_path.parent.mkdir(exist_ok=True)
         out_path.write_bytes(self.out)

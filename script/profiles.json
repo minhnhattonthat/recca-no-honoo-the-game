@@ -31,9 +31,9 @@
    "となって命を賭して守",
    "ることを誓う。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Recca Hanabishi",
+  "en": "Family name Hanabishi, given name Recca. A high school student whose adoptive father is a fireworks maker.\n\nA Hokage descendant with the powers of a flame caster, born 400 years ago to Oka, head of the Hokage ninja clan, and his wife Kagero.\n\nTo escape Nobunaga's onslaught, he was sent to the present day by Kagero's secret art, Jiku Ruri.\n\nWith the blood of the Hokage head, he has a flame caster's powers and commands eight fire dragons in his arm.\n\nFor a certain reason, he calls his classmate Yanagi Sakoshita \"Princess\" and has sworn to be her ninja and protect her with his life.",
+  "status": "tl"
  },
  {
   "id": "prof_01",
@@ -58,9 +58,9 @@
    "の戦いを通じて大きな",
    "成長ぶりを見せる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Domon Ishijima",
+  "en": "Recca's sparring buddy from the same high school.\n\nA power fighter who wins by brute force. Blessed with luck, he gets out of tight spots with snap decisions. But Domon's real strength may be that he runs purely on instinct.\n\nOnce thought to be the Hokage's dead weight, he shows huge growth through many battles.",
+  "status": "tl"
  },
  {
   "id": "prof_02",
@@ -83,9 +83,9 @@
    "",
    "得意技は風の爪。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Fuko Kirisawa",
+  "en": "Recca's childhood friend, a high school girl at the same school. She loves to fight and is always sparring with Recca and Domon.\n\nShe got the madogu Fujin from Kagero, and in later battles shows a skillful side by combining it with Oni no Tsume. She hates to lose and is rough, but she also takes good care of others.\n\nHer specialty is the Wind Claw.",
+  "status": "tl"
  },
  {
   "id": "prof_03",
@@ -107,9 +107,9 @@
    "しさを悟り、少しずつ",
    "変化が現れる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Tokiya Mikagami",
+  "en": "A high school student at the same school as Recca and the others. His sister was killed when he was a child, and perhaps because he lives for revenge, he seems icy cold.\n\nHe pursues his revenge with Ensui, the madogu left by his sister. But fighting alongside Recca and the others, he sees the emptiness of a life lived only for revenge, and slowly begins to change.",
+  "status": "tl"
  },
  {
   "id": "prof_04",
@@ -133,9 +133,9 @@
    "優れた魔導具の使い手",
    "となる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kaoru Koganei",
+  "en": "A former member of Uruha, the assassin group led by Kurei.\n\nTo learn the truth behind Kurei's betrayal, he joined the Hokage and fights alongside Recca and the others.\n\nHe uses Kogan Anki, a madogu with five forms. His fighting skill rivals his friends', and by perfecting the phantom sixth form he becomes an even finer madogu user.",
+  "status": "tl"
  },
  {
   "id": "prof_05",
@@ -175,9 +175,9 @@
    "力は烈火の炎をも圧倒",
    "する。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kurei",
+  "en": "A Hokage descendant with the powers of a flame caster, born 400 years ago to Oka, head of the Hokage ninja clan, and his concubine Reina. Recca's half brother.\n\nHe slipped into Jiku Ruri when Recca was sent away by Kagero's secret art, and survived into the present.\n\nAs a concubine's son, he was scorned as a demon child by the Hokage ninja once Recca was born to Kagero, the true wife, and has hated Recca ever since.\n\nAnd since Koran Mori holds his foster mother Tsukino hostage, he serves him as leader of Uruha, the elite guard.\n\nHe has taken his beloved Kurenai, killed by Koran Mori, into himself as his flame warrior, and his power overwhelms even Recca's flames.",
+  "status": "tl"
  },
  {
   "id": "prof_06",
@@ -194,9 +194,9 @@
    "森光蘭の忠実なるしも",
    "べ。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Renge",
+  "en": "A clone made by Koran Mori, carrying the genes of Kurei and Kurenai. Like Recca and Kurei, she can control flame.\n\nKoran Mori's loyal servant.",
+  "status": "tl"
  },
  {
   "id": "prof_07",
@@ -218,9 +218,9 @@
    "戦う使命感のみで戦闘",
    "を行う。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Hiruko",
+  "en": "One of the Ura Uruha's Shishiten, known as Hiruko the Undying.\n\nFused with the living madogu Ketsushu, he fights by controlling the demon blood his body makes at will.\n\nRaised on hellish combat training and given a Shishiten seat in the Ura Uruha, he fights out of sheer sense of duty.",
+  "status": "tl"
  },
  {
   "id": "prof_08",
@@ -246,9 +246,9 @@
    "様々な攻撃を生み出せ",
    "る。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kadotsu",
+  "en": "A member of the Ura Uruha, the internal assassin unit of Uruha, the assassin group led by Kurei.\n\nAfter Kurei's exile, he hunts Recca and the others as one of Koran Mori's troops.\n\nHis body is enormous and his strength inhuman.\n\nUnlike other madogu, his Mumei combines with the gauntlet Mongamae to create all kinds of attacks.",
+  "status": "tl"
  },
  {
   "id": "prof_09",
@@ -285,9 +285,9 @@
    "奥地で融合の準備をお",
    "こなっている。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Koran Mori",
+  "en": "The Hokage ninja clan's madogu were made by two men, Koku and Kaima: madogu to give life, and madogu only to kill.\n\nThe last madogu Kaima made, the clan's strongest, was \"Tendo Jigoku\", with Kaima's own soul sealed inside.\n\nDeemed dangerous, Tendo Jigoku stayed sealed for ages, but Koran Mori, set on fulfilling every desire, woke it again and fused with it, becoming a being of immense power.\n\nFused with Tendo Jigoku, Koran Mori needs the healing girl Yanagi Sakoshita to become complete. He kidnapped her and prepares the fusion deep in SODOM.",
+  "status": "tl"
  },
  {
   "id": "prof_10",
@@ -307,9 +307,9 @@
    "未知の相手の技は真似",
    "することができない。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kashamaru",
+  "en": "A member of the Ura Uruha, the internal assassin unit of Uruha, the assassin group led by Kurei.\n\nHe excels at copying foes' moves with the ninja art Kagami Jigoku. With the madogu Nisebi he can even copy the eight dragons of Recca, but he can't copy moves of foes he doesn't know.",
+  "status": "tl"
  },
  {
   "id": "prof_11",
@@ -331,9 +331,9 @@
    "対し異様なまでの執着",
    "を見せる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Mokuren",
+  "en": "A member of Uruha, the assassin group led by Kurei. Known as the Heartless Man, Mokuren of Kodama.\n\nA plant user who wields Kodama, a madogu of wood among the five elements of wood, fire, earth, metal and water, and fights with tree roots kept in his body.\n\nSelfish and cruel, he is weirdly obsessed with Recca.",
+  "status": "tl"
  },
  {
   "id": "prof_12",
@@ -351,9 +351,9 @@
    "ＯＭの建物を楽に破壊",
    "できるほど強力。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Shiguma",
+  "en": "A mysterious creature controlled by Kirito's madogu Nehan.\n\nIt fights with countless demon bullets fired from its huge body, strong enough to easily wreck SODOM's buildings.",
+  "status": "tl"
  },
  {
   "id": "prof_13",
@@ -372,9 +372,9 @@
    "どだがれっきとした",
    "男性である。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Saicho",
+  "en": "A member of the fighting group Ku, who uses the madogu Shikigami to breathe life into paper. A chronic illness keeps him from fighting for long.\n\nHe looks so delicate he's mistaken for a girl, but he is very much a man.",
+  "status": "tl"
  },
  {
   "id": "prof_14",
@@ -400,9 +400,9 @@
    "捕らわれの身となって",
    "いる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Yanagi Sakoshita",
+  "en": "A high school girl at the same school as Recca. For a certain reason, her classmate Recca calls her \"Princess\" and protects her.\n\nShe has the power of healing and is the reincarnation of Princess Sakura of the Sawaki family, protected 400 years ago by Oka, head of the Hokage ninja clan.\n\nKidnapped by Koran Mori, who seeks to fuse with her healing power to become complete, she is held captive deep in SODOM.",
+  "status": "tl"
  },
  {
   "id": "prof_15",
@@ -427,9 +427,9 @@
    "を見通して烈火に試練",
    "を与える。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kagero",
+  "en": "Wife of Oka, head of the Hokage ninja clan. Recca's mother.\n\nAs the clan fell 400 years ago, she used the secret art Jiku Ruri to send Recca to the present, but its curse left her unable to die.\n\nMeeting Recca again 400 years later, she foresees his battle with Kurei, also carried here by Jiku Ruri, and puts Recca to the test.",
+  "status": "tl"
  },
  {
   "id": "prof_16",
@@ -458,9 +458,9 @@
    "マインドコントロール",
    "を施す。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Aoi",
+  "en": "A member of the Ura Uruha, the internal assassin unit of Uruha, the assassin group led by Kurei.\n\nA clone made by Koran Mori with the genes of Kurei and Kurenai, but unable to control flame, he is called a failure and feels deeply inferior.\n\nAfter Kurei's exile, he hunts Recca and the others as one of Koran Mori's troops.\n\nWith the madogu Shinryo Shiko he puts the kidnapped Yanagi Sakoshita under mind control.",
+  "status": "tl"
  },
  {
   "id": "prof_17",
@@ -488,9 +488,9 @@
    "てくれる紅麗に忠誠を",
    "誓い仕えている。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Raiha",
+  "en": "A member of Uruha, the assassin group led by Kurei, and Kurei's ninja.\n\nRaiha's madogu is Raijin. To hold back its overwhelming power, Raiha used Fujin's core, but resolving to use Raijin to protect Kurei, he gives Fujin's core to Fuko.\n\nHe descends from Hokage who fled to save their own skins when the Hokage ninja clan fell 400 years ago. Ashamed of his bloodline, he swears loyalty to Kurei, who accepts him for it.",
+  "status": "tl"
  },
  {
   "id": "prof_18",
@@ -515,9 +515,9 @@
    "れ烈火たちに様々なア",
    "ドバイスを与える。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Koku",
+  "en": "One of the fire dragons in Recca's arm. Once a ninja of the Hokage ninja clan, he became a fire dragon from the unfulfilled wishes of each ninja, and lends his power to the flame caster who will lay their regrets to rest.\n\nUnlike the other sealed dragons, by what he calls his \"super wonderful-o power\" he appears in the real world as a strange old man and gives Recca and the others all sorts of advice.",
+  "status": "tl"
  },
  {
   "id": "prof_19",
@@ -541,9 +541,9 @@
    "面で力を貸してくれる",
    "存在となる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kukai",
+  "en": "Assistant master of the fighting group Ku. A pure brawler who uses no madogu.\n\nEven Buddha's patience lasts only three times. Also called Kukai the Buddha, he calmly endures a foe's first two attacks, but on the third his whole personality changes.\n\nAfter his match with the Hokage, trust grows between them and he lends his strength in many situations.",
+  "status": "tl"
  },
  {
   "id": "prof_20",
@@ -566,9 +566,9 @@
    "わった人物。関西弁を",
    "喋る。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Joker",
+  "en": "A member of Uruha, the assassin group led by Kurei. A tough fighter who skillfully shifts gravity with the madogu Taishaku Kaiten.\n\nHe loves freedom and walks his own style, bound by nothing, even within Uruha.\n\nAn odd guy who sometimes even teams up with Recca and the others. Speaks with a Kansai accent.",
+  "status": "tl"
  },
  {
   "id": "prof_21",
@@ -591,9 +591,9 @@
    "涅槃を使って死愚魔を",
    "操作する。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Kirito",
+  "en": "One of the Ura Uruha's Shishiten.\n\nWith the madogu Rinne he can change his age at will, but as both mind and body change, he forgot his true self. Afraid to learn it, he took Koran Mori's offer and became his underling.\n\nWith his other madogu, Nehan, he controls Shiguma.",
+  "status": "tl"
  },
  {
   "id": "prof_22",
@@ -609,9 +609,9 @@
    "残虐非道な戦いを主に",
    "する卑劣な女戦士。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Mikoto",
+  "en": "A member of Uruha, the assassin group led by Kurei.\n\nA vile woman warrior who fights brutally and ruthlessly with the madogu Dokumashin and the humanoid madogu Mikoto.",
+  "status": "tl"
  },
  {
   "id": "prof_23",
@@ -632,9 +632,9 @@
    "くことをひどく嫌って",
    "いる。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Tsukishiro",
+  "en": "A member of the Ura Uruha, the internal assassin unit of Uruha, the assassin group led by Kurei.\n\nA narcissistic pretty boy who has mastered two madogu, Kurage and Oboro.\n\nHe shows off his smarts and hates having his body scratched in a fight.",
+  "status": "tl"
  },
  {
   "id": "prof_24",
@@ -656,8 +656,8 @@
    "な場面で戦いを共にす",
    "る。"
   ],
-  "name": "",
-  "en": "",
-  "status": ""
+  "name": "Gashakura",
+  "en": "A member of the Ura Uruha, the internal assassin unit of Uruha, the assassin group led by Kurei.\n\nYounger brother of Magensha, also of the Ura Uruha, and wielder of the madogu Tsuchigumo.\n\nSince losing to Fuko, he has built trust with Recca and the others and fights alongside them in many situations.",
+  "status": "tl"
  }
 ]

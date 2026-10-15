@@ -48,7 +48,8 @@ if kind == "story" then
       if arrived or not typed then return end
       local base = emu.read32(0x03000BA4, M)
       local loff = emu.read16(base + 6, M)
-      emu.write32(0x03000BA8, base + emu.read16(base + loff + 2 * a2, M), M)
+      local off = PC or emu.read16(base + loff + 2 * a2, M)   -- --var PC=<byte offset> jumps to raw bytecode
+      emu.write32(0x03000BA8, base + off, M)
       arrive()
     end)
   end
