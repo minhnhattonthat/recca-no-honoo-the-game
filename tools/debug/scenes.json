@@ -1,0 +1,5 @@
+{
+ "title": {"spec": "title", "frames": 1500},
+ "menu": {"spec": "menu", "frames": 1800},
+ "story_intro1": {"spec": "story:1", "frames": 2400, "mash": 40}
+}
