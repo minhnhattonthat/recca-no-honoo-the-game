@@ -31,11 +31,11 @@ INTRO = [
 FILL, OUTLINE = 4, 2
 
 
-def text_bitmap(text, w, h, fill=FILL, outline=OUTLINE, font=None, top=3):
-    """Centred text with a 1-px outline -> h rows of w palette indices."""
+def text_bitmap(text, w, h, fill=FILL, outline=OUTLINE, font=None, top=3, snap=1):
+    """Centred text with a 1-px outline -> h rows of w palette indices. snap: align the start x (fewer tiles)."""
     font = font or T.Font()
     rows, ink = T.strip(text, font) if text else ([0] * 11, 0)
-    x0 = max(0, (w - ink) // 2)
+    x0 = max(1, (w - ink) // 2 // snap * snap + (1 if snap > 1 else 0))
     px = [[0] * w for _ in range(h)]
     for r, v in enumerate(rows):
         for x in range(ink):
@@ -80,9 +80,145 @@ def intro(out):
         yield data, data + 1024
 
 
-def patch(out):
-    """Apply every graphics redraw to the bytearray `out`; returns written (lo, hi) ranges."""
-    return list(intro(out))
+# Staff roll: ABG0 pages (u8 width/2, u16 height, u8 flags (0x08 = 32-byte palette follows), u32 tile bytes, tiles,
+# then a 30-wide map of u16 tile indices). Page pointers at 0x08468E68.. (8 pages, page 0 again at 0x468E88).
+# Lines: (top y, text, heading?) placed where the Japanese lines were; heading = underlined.
+CREDITS_TABLE = 0x468E68
+CREDITS = [
+    [(161, 'Flame of Recca THE GAME', 0), (177, 'Staff', 0), (225, '- Production -', 0)],
+    [(1, 'Producer', 1), (17, 'Shun Kimoto', 0), (49, 'Director', 1), (65, 'Masahiro Hinami', 0),
+     (97, 'Technical Advisor', 1), (113, 'Satoshi Mikami', 0), (145, 'Sound', 1), (161, 'Akira Nakata', 0),
+     (177, 'Junichiro Kaneda', 0), (193, 'Toshiyuki Miyamoto', 0), (225, 'Voice Director', 1),
+     (241, 'Sumiko Shindo (KME)', 0)],
+    [(33, 'Recording Studio', 1), (49, 'Little Bach Aoyama', 0), (65, 'Engineer: Sho Hashimoto', 0),
+     (129, '- Development -', 0), (161, 'Producer', 1), (177, 'Hidetaka Takayama', 0), (209, 'Director', 1),
+     (225, 'Hiroyuki Nasu', 0)],
+    [(1, 'Assist', 1), (17, 'Kozo Miyagawa', 0), (33, 'Tomoharu Mori', 0), (81, '- Program -', 0),
+     (113, 'System', 1), (129, 'Kenji Abe', 0), (161, 'Battle', 1), (177, 'Masami Miyazo', 0), (209, 'Sub', 1),
+     (225, 'Takashi Nishimura', 0)],
+    [(17, '- Graphics -', 0), (49, 'Adventure & Demo', 1), (65, 'Arata Yasuda', 0),
+     (97, 'Characters & Effects', 1), (113, 'Keiichiro Morita', 0), (129, 'Daisuke Furusawa', 0),
+     (145, 'Nobuyuki Eguchi', 0), (161, 'Daiki Fujiwara', 0), (193, 'System & Boss Characters', 1),
+     (209, 'Katsuo Saito', 0), (241, 'Stages', 1)],
+    [(1, 'Katsuo Saito', 0), (17, 'Emiko Shindo', 0), (33, 'Junko Sawada', 0), (81, '- Voice Cast -', 0),
+     (113, 'Katsuhiro Ota', 0), (129, 'Misato Fukuen', 0), (145, 'Akira Negishi', 0), (161, 'Masakazu Ohara', 0),
+     (177, 'Hiroyuki Yoshino', 0), (193, 'Takumi Tanimoto', 0)],
+    [(25, '- Original Work -', 0), (41, 'Nobuyuki Anzai', 0), (129, '- Special Thanks -', 0),
+     (145, 'Shogakukan', 1), (161, 'Shinichiro Tsuzuki', 0), (177, 'Atsushi Nomura', 0),
+     (193, 'Tsutomu Nakakado', 0), (209, 'Shogakukan Production', 1), (225, 'Hirohisa Mino', 0),
+     (241, 'Sho Masuda', 0)],
+    [(81, '(C) Nobuyuki Anzai / Shogakukan', 0), (97, '(C) 2001 KONAMI', 0)],
+]
+
+
+def credits_page(lines, w, h, font):
+    px = [[0] * w for _ in range(h)]
+    for y, text, head in lines:
+        bm = text_bitmap(text, w, 14, fill=5, outline=4, font=font, top=1)
+        for r in range(14):
+            if 0 <= y + r < h:
+                for x in range(w):
+                    if bm[r][x]:
+                        px[y + r][x] = bm[r][x]
+        if head:
+            xs = [x for x in range(w) if any(bm[r][x] for r in range(14))]
+            for k, c in enumerate((4, 5, 4)):
+                yy = y + 11 + k
+                if yy < h:
+                    for x in range(xs[0] - 1, xs[-1] + 2):
+                        px[yy][x] = c
+    return px
+
+
+def tiles_map(px, hflip=False):
+    """Pixel rows -> (tile bytes, u16 map) with tile 0 blank and duplicate tiles merged (hflip: also mirrored
+    tiles, map bit 10 - only where the original data uses it)."""
+    h, w = len(px), len(px[0])
+    tiles, index, mp = [bytes(32)], {bytes(32): 0}, []
+    for ty in range(h // 8):
+        for tx in range(w // 8):
+            t = bytes(px[ty * 8 + r][tx * 8 + c] | px[ty * 8 + r][tx * 8 + c + 1] << 4
+                      for r in range(8) for c in range(0, 8, 2))
+            if hflip and t not in index:
+                m = bytes(px[ty * 8 + r][tx * 8 + 7 - c] | px[ty * 8 + r][tx * 8 + 6 - c] << 4
+                          for r in range(8) for c in range(0, 8, 2))
+                if m in index:
+                    mp.append(index[m] | 0x400)
+                    continue
+            if t not in index:
+                index[t] = len(tiles)
+                tiles.append(t)
+            mp.append(index[t])
+    return b''.join(tiles), mp
+
+
+def credits(out, append):
+    font = T.Font()
+    for k, lines in enumerate(CREDITS):
+        p = T.u32(out, CREDITS_TABLE + 4 * k) - T.ROMBASE
+        assert out[p:p + 4] == b'ABG0'
+        w, h, fl, n = out[p + 4] * 2, T.u16(out, p + 5), out[p + 7], T.u32(out, p + 8)
+        pal = out[p + 12:p + 44] if fl & 8 else b''
+        rows = h // 16                         # map rows: 32 for h=512, 22 for h=352 (matches the ROM data)
+        tiles, mp = tiles_map(credits_page(lines, w, rows * 8, font))
+        # pages load into alternating VRAM slots 0x0040-0x1FFF / 0x2040-0x3FFF (art from 0x4000): 254 tiles each
+        assert len(tiles) <= 254 * 32, f'credits page {k}: {len(tiles) // 32} tiles > 254'
+        blob = bytes(out[p:p + 8]) + struct.pack('<I', len(tiles)) + pal + tiles + struct.pack(f'<{len(mp)}H', *mp)
+        at = append(blob)
+        struct.pack_into('<I', out, CREDITS_TABLE + 4 * k, at | T.ROMBASE)
+        yield CREDITS_TABLE + 4 * k, CREDITS_TABLE + 4 * k + 4
+        if k == 0:
+            struct.pack_into('<I', out, CREDITS_TABLE + 0x20, at | T.ROMBASE)
+            yield CREDITS_TABLE + 0x20, CREDITS_TABLE + 0x24
+
+
+END_CARD_LIT = 0x34C98   # code literal -> ABG0 end card (logo + 完); 完 (rows 96-143) becomes "THE END"
+
+
+def decode_abg(out, p, rows):
+    fl, n = out[p + 7], T.u32(out, p + 8)
+    t = p + 12 + (32 if fl & 8 else 0)
+    m = t + n
+    px = [[0] * 240 for _ in range(rows * 8)]
+    for ty in range(rows):
+        for tx in range(30):
+            e = T.u16(out, m + 2 * (ty * 30 + tx))
+            idx, hf, vf = e & 0x3FF, e >> 10 & 1, e >> 11 & 1
+            for r in range(8):
+                for c in range(8):
+                    b = out[t + idx * 32 + r * 4 + c // 2]
+                    px[ty * 8 + (7 - r if vf else r)][tx * 8 + (7 - c if hf else c)] = (b >> 4) if c & 1 else b & 15
+    return px
+
+
+def end_card(out, append):
+    p = T.u32(out, END_CARD_LIT) - T.ROMBASE
+    assert out[p:p + 4] == b'ABG0'
+    h, fl, n = T.u16(out, p + 5), out[p + 7], T.u32(out, p + 8)
+    rows = h // 16
+    px = decode_abg(out, p, rows)
+    for y in range(96, 144):
+        px[y] = [0] * 240
+    rows_bm, ink = T.strip('THE END', T.Font())
+    x0 = (240 - ink * 2) // 2
+    for r, v in enumerate(rows_bm):
+        for x in range(ink):
+            if v >> x & 1:
+                for dy in range(2):
+                    for dx in range(2):
+                        px[104 + r * 2 + dy][x0 + x * 2 + dx] = 15
+    tiles, mp = tiles_map(px, hflip=True)
+    assert len(tiles) <= n, f'end card {len(tiles) // 32} tiles > original {n // 32}'
+    pal = out[p + 12:p + 44] if fl & 8 else b''
+    at = append(bytes(out[p:p + 8]) + struct.pack('<I', len(tiles)) + pal + tiles + struct.pack(f'<{len(mp)}H', *mp))
+    struct.pack_into('<I', out, END_CARD_LIT, at | T.ROMBASE)
+    yield END_CARD_LIT, END_CARD_LIT + 4
+
+
+def patch(out, append):
+    """Apply every graphics redraw to the bytearray `out` (append(blob) -> offset for new data); returns the
+    original-ROM (lo, hi) ranges written."""
+    return list(intro(out)) + list(credits(out, append)) + list(end_card(out, append))
 
 
 def preview():
