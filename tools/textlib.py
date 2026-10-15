@@ -262,19 +262,28 @@ def render_glyph(key):
 
 
 class CodeAlloc:
-    """Allocates 2-byte codes for generated cell glyphs."""
-    LEAD0, TRAIL0, PER = 0x88, 0x40, 192
+    """Allocates 2-byte codes for generated cell glyphs. Leads avoid every Shift-JIS kana/kanji row (so leftover
+    Japanese still renders and jp_left never mistakes English for Japanese): 0x85-0x87, 0xA0-0xDF, 0xF0-0xFF.
+    Trails 0x30-0xFF. The font hook maps lead -> row through LEAD_INDEX (256 bytes, 0xFF = original font)."""
+    LEADS = [0x85, 0x86, 0x87] + list(range(0xA0, 0xE0)) + list(range(0xF0, 0x100))
+    TRAIL0, PER = 0x30, 208
 
     def __init__(self):
         self.codes = {}
+
+    @classmethod
+    def lead_index(cls):
+        t = bytearray(b'\xff' * 256)
+        for k, lead in enumerate(cls.LEADS):
+            t[lead] = k
+        return bytes(t)
 
     def code(self, key):
         c = self.codes.get(key)
         if c is None:
             i = len(self.codes)
-            lead = self.LEAD0 + i // self.PER
-            assert lead <= 0xFF, 'out of glyph codes'
-            c = (lead << 8) | (self.TRAIL0 + i % self.PER)
+            assert i // self.PER < len(self.LEADS), 'out of glyph codes'
+            c = (self.LEADS[i // self.PER] << 8) | (self.TRAIL0 + i % self.PER)
             self.codes[key] = c
         return c
 

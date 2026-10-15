@@ -1,5 +1,139 @@
 {
- "title": {"spec": "title", "frames": 1500},
- "menu": {"spec": "menu", "frames": 1800},
- "story_intro1": {"spec": "story:1", "frames": 2400, "mash": 40}
+ "title": {
+  "spec": "title",
+  "frames": 1500
+ },
+ "menu": {
+  "spec": "menu",
+  "frames": 1800
+ },
+ "story_select": {
+  "spec": "mode:0",
+  "frames": 1800,
+  "after": "120 -;6 right;90 -"
+ },
+ "vs_com": {
+  "spec": "mode:1:0",
+  "frames": 2400,
+  "after": "120 -;6 a;150 -;6 a;150 -"
+ },
+ "secret_mode": {
+  "spec": "mode:2",
+  "frames": 1800
+ },
+ "database": {
+  "spec": "mode:3",
+  "frames": 2000,
+  "after": "150 -;6 a;150 -;6 a;200 -"
+ },
+ "option": {
+  "spec": "mode:4",
+  "frames": 1800,
+  "after": "120 -;6 down;80 -;6 down;80 -;6 down;80 -;6 a;150 -"
+ },
+ "story_01_intro1": {
+  "spec": "story:1",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_02_intro2": {
+  "spec": "story:2",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_04_close1": {
+  "spec": "story:4",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_05_close2": {
+  "spec": "story:5",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_06_recca1": {
+  "spec": "story:6",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_07_recca2": {
+  "spec": "story:7",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_08_recca3": {
+  "spec": "story:8",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_09_domon1": {
+  "spec": "story:9",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_10_domon2": {
+  "spec": "story:10",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_11_domon3": {
+  "spec": "story:11",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_12_fuko1": {
+  "spec": "story:12",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_13_fuko2": {
+  "spec": "story:13",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_14_fuko3": {
+  "spec": "story:14",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_15_tokiya1": {
+  "spec": "story:15",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_16_tokiya2": {
+  "spec": "story:16",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_17_tokiya3": {
+  "spec": "story:17",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_18_kaoru1": {
+  "spec": "story:18",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_19_kaoru2": {
+  "spec": "story:19",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_20_kaoru3": {
+  "spec": "story:20",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_21_crey": {
+  "spec": "story:21",
+  "frames": 3000,
+  "mash": 120
+ },
+ "story_22_view-chr": {
+  "spec": "story:22",
+  "frames": 3000,
+  "mash": 120
+ }
 }

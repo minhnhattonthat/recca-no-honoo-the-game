@@ -26,18 +26,19 @@ class Fit(Exception):
     pass
 
 
-def hook_code(addr, font_addr):
+def hook_code(addr, font_addr, lead_addr):
     from keystone import Ks, KS_ARCH_ARM, KS_MODE_THUMB
     src = f"""
         lsrs r0, r1, #8
-        cmp r0, #0x88
-        bcc orig
-        subs r0, #0x88
-        movs r2, #192
+        ldr r2, =0x{lead_addr | T.ROMBASE:08X}
+        ldrb r0, [r2, r0]
+        cmp r0, #0xFF
+        beq orig
+        movs r2, #{T.CodeAlloc.PER}
         muls r0, r2, r0
         lsls r2, r1, #24
         lsrs r2, r2, #24
-        subs r2, #0x40
+        subs r2, #{T.CodeAlloc.TRAIL0}
         adds r0, r0, r2
         movs r2, #24
         muls r0, r2, r0
@@ -248,8 +249,9 @@ class Builder:
     def finish(self):
         table = self.alloc.table()
         font_at = self.append(table + b'\xff\xff')
+        lead_at = self.append(T.CodeAlloc.lead_index())
         hook_at = self.append(b'\0' * 64)
-        code = hook_code(hook_at, font_at)
+        code = hook_code(hook_at, font_at, lead_at)
         assert len(code) <= 64
         self.out[hook_at:hook_at + len(code)] = code
         self.out[HOOK_SITE:HOOK_SITE + 2] = bytes.fromhex('1847')   # bx r3

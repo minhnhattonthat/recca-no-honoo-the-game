@@ -36,8 +36,15 @@ menu descriptions 0x468318, profile lines 0x469340 (453, fixed 24-byte slots, 10
 sound-test names 0x469CFC (269), stages 0x468D90, misc). Many are padded with `　` to a fixed cell count to clear old
 cells: keep the same cell count in English.
 
-## English plan (engine spike, phase 5)
-Build-time "cell groups": the insert tool wraps English into runs of letters whose VWF width fits one cell
-(≤ 14 px incl. 1-px spacing/shadow), renders each unique run into a glyph in the game's own font format, and encodes
-it as a 2-byte code (lead 0x88-0xFF). A 10-instruction hook in `glyph` indexes the new font table directly instead of
-the linear search. Renderer, typewriter, menus and cell counts keep working unchanged.
+## English engine (as built)
+- Build-time VWF: each English line is rendered with tbl/font_en.txt into one pixel strip; cell k = strip columns
+  [14k, 14k+16) (16-px cells drawn at a 14-px pitch overlap by 2 px, which keeps letters and shadows continuous). Each
+  unique cell bitmap becomes a glyph (game font format) with a private 2-byte code: leads 0x85-0x87, 0xA0-0xDF,
+  0xF0-0xFF (no SJIS kana/kanji row, so leftover Japanese still renders), trails 0x30-0xFF; ~14.7k glyphs.
+- Hook: 0x0800C6CC `ldrh` -> `bx r3`, literal 0x0800C6D4 -> hook; hook maps lead via a 256-byte row table, indexes the
+  new font directly, else falls back to the original list; returns to 0x0800C6E0.
+- Control codes and fullwidth chars (arrows, Σ digit, σ member list) start a new cell. Party-member names
+  (0x0843B374) end in a comma and the separator cell is cut (0x0800C91A beq -> b).
+- Pitfalls found in QA: widgets show a fixed number of cells -> pad every sys string to its JP cell count; some code
+  copies strings with `ldm` -> relocated strings must be 4-byte aligned; save-panel counters patch bytes 13/17 of a
+  19-byte copy -> 6-cell label + JP digit tail; option dialogs fill a 6x3 cell grid without line codes.

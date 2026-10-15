@@ -27,7 +27,7 @@ def test_no_fit_errors_and_all_english(built):
     b, _ = built
     assert not b.errors
     assert b.stats['jp'] == 0
-    assert len(b.alloc.codes) < 120 * 192
+    assert len(b.alloc.codes) < len(T.CodeAlloc.LEADS) * T.CodeAlloc.PER
 
 
 def test_romdiff_allowed_ranges(built):
