@@ -215,10 +215,104 @@ def end_card(out, append):
     yield END_CARD_LIT, END_CARD_LIT + 4
 
 
+# ASP0 sprite labels (16 px tall, 1D 32x16 sprites): (resource offset, English, x or None = centred, top row,
+# text box rows lo..hi to clear to the background colour, columns lo..hi)
+DB_NAMES = ['Recca Hanabishi', 'Domon Ishijima', 'Fuko Kirisawa', 'Tokiya Mikagami', 'Kaoru Koganei', 'Kurei',
+            'Renge', 'Hiruko', 'Kadotsu', 'Koran Mori', 'Kashamaru', 'Mokuren', 'Shiguma', 'Saicho',
+            'Yanagi Sakoshita', 'Kagero', 'Aoi', 'Raiha', 'Koku', 'Kukai', 'Joker', 'Kirito', 'Mikoto',
+            'Tsukishiro', 'Gashakura']
+LABELS = ([(0x72ED64 + 0x30C * k, n, 4, 2, (2, 13), (2, 86)) for k, n in enumerate(DB_NAMES)] +
+          [(0x733CC8, 'Profile', None, 1, (2, 9), (2, 60)), (0x733ED4, 'Move List', None, 1, (2, 9), (2, 60)),
+           (0x7340E0, 'Results', None, 1, (2, 9), (2, 60)), (0x7342EC, 'Back', None, 1, (2, 9), (2, 60))])
+
+
+def asp_pixels(out, a):
+    size = T.u16(out, a + 10)
+    data = a + 12 + (32 if out[a + 8] & 0x10 else 0)
+    w = size * 2 // 16
+    px = [[0] * w for _ in range(16)]
+    for y in range(16):
+        for x in range(w):
+            t = (x // 32) * 8 + (y // 8) * 4 + (x % 32) // 8
+            b = out[data + t * 32 + (y % 8) * 4 + (x % 8) // 2]
+            px[y][x] = (b >> 4) if x & 1 else b & 15
+    return px, data, size
+
+
+def labels(out):
+    font = T.Font()
+    for a, text, x, top, (r0, r1), (c0, c1) in LABELS:
+        assert out[a:a + 4] == b'ASP0', hex(a)
+        px, data, size = asp_pixels(out, a)
+        bg = max(set(px[(r0 + r1) // 2][c0:c1]), key=px[(r0 + r1) // 2][c0:c1].count)
+        for y in range(r0, r1 + 1):
+            for xx in range(c0, c1 + 1):
+                px[y][xx] = bg
+        rows, ink = T.strip(text, font)
+        x0 = x if x is not None else c0 + (c1 - c0 + 1 - ink) // 2
+        assert x0 + ink <= c1, (text, ink)
+        for r, v in enumerate(rows):
+            for dx in range(ink):
+                if v >> dx & 1:
+                    for oy in (-1, 0, 1):
+                        for ox in (-1, 0, 1):
+                            Y, X = top + r + oy, x0 + dx + ox
+                            if r0 - 1 <= Y <= r1 + 1 and px[Y][X] != 15:
+                                px[Y][X] = 1
+        for r, v in enumerate(rows):
+            for dx in range(ink):
+                if v >> dx & 1:
+                    px[top + r][x0 + dx] = 15
+        blob = sprite_tiles(px)
+        assert len(blob) == size
+        out[data:data + size] = blob
+        yield data, data + size
+
+
+# Name plates (64x16 ASP0, 4x5 caps font, fill F, outline 1, bg D): respell the game's plates to the glossary.
+PLATE_FONT = {
+    'A': ['.##.', '#..#', '#..#', '####', '#..#'], 'C': ['.##.', '#..#', '#...', '#..#', '.##.'],
+    'E': ['####', '#...', '###.', '#...', '####'], 'F': ['####', '#...', '###.', '#...', '#...'],
+    'G': ['.##.', '#...', '#.##', '#..#', '.##.'], 'H': ['#..#', '#..#', '####', '#..#', '#..#'],
+    'I': ['###', '.#.', '.#.', '.#.', '###'], 'K': ['#..#', '#.#.', '##..', '#.#.', '#..#'],
+    'O': ['.##.', '#..#', '#..#', '#..#', '.##.'], 'R': ['###.', '#..#', '###.', '#.#.', '#..#'],
+    'S': ['.###', '#...', '.##.', '...#', '###.'], 'U': ['#..#', '#..#', '#..#', '#..#', '.##.'],
+}
+PLATES = [(0x735C28, 'KUREI'), (0x735604, 'FUKO'), (0x7376C4, 'KOKU'), (0x7378D0, 'KUKAI'),
+          (0x7370A0, 'KAGERO'), (0x736C88, 'SAICHO')]
+
+
+def plates(out):
+    for a, text in PLATES:
+        assert out[a:a + 4] == b'ASP0', hex(a)
+        px, data, size = asp_pixels(out, a)
+        for y in range(3, 10):
+            for x in range(3, 61):
+                px[y][x] = 0xD
+        w = sum(len(PLATE_FONT[c][0]) + 1 for c in text) - 1
+        x = (64 - w) // 2
+        for c in text:
+            g = PLATE_FONT[c]
+            for r, row in enumerate(g):
+                for dx, p in enumerate(row):
+                    if p == '#':
+                        for oy in (-1, 0, 1):
+                            for ox in (-1, 0, 1):
+                                if px[4 + r + oy][x + dx + ox] == 0xD:
+                                    px[4 + r + oy][x + dx + ox] = 1
+            for r, row in enumerate(g):
+                for dx, p in enumerate(row):
+                    if p == '#':
+                        px[4 + r][x + dx] = 0xF
+            x += len(g[0]) + 1
+        out[data:data + size] = sprite_tiles(px)
+        yield data, data + size
+
+
 def patch(out, append):
     """Apply every graphics redraw to the bytearray `out` (append(blob) -> offset for new data); returns the
     original-ROM (lo, hi) ranges written."""
-    return list(intro(out)) + list(credits(out, append)) + list(end_card(out, append))
+    return (list(intro(out)) + list(credits(out, append)) + list(end_card(out, append)) + list(labels(out)) + list(plates(out)))
 
 
 def preview():
