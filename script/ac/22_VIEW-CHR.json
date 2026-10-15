@@ -2,7 +2,7 @@
  {
   "id": "ac22_000",
   "jp": "%T0ＡＢ：キャラ%nＬＲ：はいけい%nＳＴＡＲＴ：表情",
-  "en": "",
-  "status": ""
+  "en": "%T0A/B: Character%nL/R: Background%nSTART: Expression",
+  "status": "tl"
  }
 ]

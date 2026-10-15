@@ -202,65 +202,63 @@ def tokens(s):
     return out
 
 
-def layout_line(toks, font, pitch=CELL):
-    """One line of tokens -> list of cells; each cell = ('g', ((char, x), ...)) | ('w', fullwidth) and controls
-    ('c', code) placed between cells. Returns (items, ncells)."""
-    items, cur, cs, x = [], [], 0, 0
+BLANK = ('w', '　')
 
-    def close():  # finish the current cell (blank if it only holds space) and move to the next
-        nonlocal cur, cs, x
-        items.append(('g', tuple(cur)) if cur else ('w', '　'))
-        cur = []
-        cs += pitch
-        x = max(x, cs)
+
+def strip(chars, font):
+    """Render ASCII text into 11 row bitmasks (bit x = pixel x). Returns (rows, ink_width)."""
+    rows, x, ink = [0] * 11, 0, 0
+    for ch in chars:
+        top, art, adv = font.glyphs[ch]
+        for r, line in enumerate(art):
+            for c, p in enumerate(line):
+                if p == '#':
+                    rows[top + r] |= 1 << (x + c)
+                    ink = max(ink, x + c + 1)
+        x += adv
+    return rows, ink
+
+
+def layout_line(toks, font, pitch=CELL):
+    """One line of tokens -> items: ('s', key) generated cell (key = 11 rows of 16 px; each cell holds strip
+    columns [k*pitch, k*pitch+16) so neighbours overlap by 16-pitch px and shadows stay right), ('w', fullwidth
+    char) one native cell, ('c', code) control between cells. Text runs start on a cell edge after a control or a
+    fullwidth char. Returns (items, ncells)."""
+    items, run = [], []
+
+    def flush():
+        if not run:
+            return
+        rows, ink = strip(run, font)
+        for k in range((ink + pitch - 1) // pitch):
+            key = tuple((r >> (k * pitch)) & 0xFFFF for r in rows)
+            items.append(('s', key) if any(key) else BLANK)
+        run.clear()
 
     for t in toks:
-        if t[0] == 'c':
-            if cur:  # a control code (colour, wait) closes the current cell
-                close()
-                x = cs
-            items.append(t)
-        elif t[0] == 'w':
-            if cur or x > cs:
-                close()
-                x = cs
-            items.append(('w', t[1]))
-            cs += pitch
-            x = cs
+        if t[0] == 't':
+            run.append(t[1])
         else:
-            ch = t[1]
-            a = font.adv(ch)
-            if ch == ' ':
-                x += a
-                while x >= cs + pitch:   # whitespace may cross cell edges
-                    close()
-                continue
-            if x + a > cs + pitch:
-                close()
-                x = cs
-            cur.append((ch, x - cs))
-            x += a
-    if cur:
-        items.append(('g', tuple(cur)))
-    ncells = sum(1 for it in items if it[0] in 'gw')
-    return items, ncells
+            flush()
+            items.append(t)
+    flush()
+    return items, sum(1 for it in items if it[0] in 'sw')
 
 
 def line_cells(text, font, pitch=CELL):
     return layout_line(tokens(text), font, pitch)[1]
 
 
-def render_glyph(font, key):
-    """key = ((char, x), ...) -> 22 bytes (11 rows x 16 px, MSB left)."""
-    rows = [0] * 11
-    for ch, x in key:
-        top, art, _ = font.glyphs[ch]
-        for r, line in enumerate(art):
-            for c, p in enumerate(line):
-                if p == '#':
-                    assert x + c < 16
-                    rows[top + r] |= 0x8000 >> (x + c)
-    return b''.join(struct.pack('>H', v) for v in rows)
+def render_glyph(key):
+    """key = 11 row values, bit x = pixel x -> 22 bytes (11 rows x 16 px, MSB = leftmost)."""
+    out = bytearray()
+    for v in key:
+        b = 0
+        for x in range(16):
+            if v >> x & 1:
+                b |= 0x8000 >> x
+        out += struct.pack('>H', b)
+    return bytes(out)
 
 
 class CodeAlloc:
@@ -280,17 +278,17 @@ class CodeAlloc:
             self.codes[key] = c
         return c
 
-    def table(self, font):
+    def table(self):
         out = bytearray()
         for key, c in self.codes.items():   # insertion order = index order
-            out += struct.pack('<H', c) + render_glyph(font, key)
+            out += struct.pack('<H', c) + render_glyph(key)
         return bytes(out)
 
 
 def encode_items(items, alloc):
     out = bytearray()
     for it in items:
-        if it[0] == 'g':
+        if it[0] == 's':
             out += struct.pack('>H', alloc.code(it[1]))
         elif it[0] == 'w':
             out += it[1].encode('cp932')

@@ -59,6 +59,8 @@ def main(force=False):
         if not slots:
             continue
         jp = T.decode(s)
+        if not jp.strip('　'):   # all-blank clear strings (box/line wipes): data, kept as is
+            continue
         data.append({'id': 'sys_%05X' % o, 'slots': ['%06X' % x for x in slots], 'jp': jp,
                      'cells': cells_jp(s), 'en': '', 'status': ''})
     write(OUT / 'sys.json', data, force)

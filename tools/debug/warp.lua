@@ -55,23 +55,24 @@ if kind == "story" then
 end
 
 -- input: press through title / menu / character select until the target is reached
-local hold = 0
+local seen_menu = false
 emu.addEventCallback(L.safe(function()
   if arrived then return end
   local fn = emu.read32(SCENE_FN, M)
   local key
-  if fn == FN_TITLE then key = "start"
+  if fn == FN_TITLE then
+    if kind == "title" then arrive() return end
+    key = "start"
   elseif fn == FN_MENU then
+    seen_menu = true
     if kind == "menu" then arrive() return end
-    if kind == "title" then return end
     key = "a"
-  elseif fn == FN_CHARSEL or kind == "mode" then
-    if kind == "mode" and fn ~= FN_MENU then arrive() return end
+  elseif seen_menu and kind == "mode" then
+    arrive() return
+  elseif fn == FN_CHARSEL then
     key = "a"
-  else
-    if kind == "title" and fn == FN_TITLE then arrive() end
+  elseif not seen_menu then
     key = (L.frame % 120 < 6) and "start" or nil -- skip logos/intro
   end
-  if kind == "title" and fn == FN_TITLE then arrive() return end
   if key and L.frame % 30 < 6 then emu.setInput({ [key] = true }, 0) end
 end), emu.eventType.inputPolled)
