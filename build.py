@@ -71,7 +71,7 @@ class Builder:
         self.slots = []                          # (slot offset, target offset) for jp_left --slots
         self.stats = {'en': 0, 'jp': 0}
 
-    def append(self, blob, align=4):
+    def append(self, blob, align=4):   # 4: code copies some strings with ldm (word access), like the originals
         if len(self.out) < T.FREE_START:
             self.out += b'\xff' * (T.FREE_START - len(self.out))
         while len(self.out) % align:
@@ -177,7 +177,7 @@ class Builder:
                     self.fit(label, 6, 1, e['id'])
                     blob = self.enc_lines([label], [6]) + T.encode_jp(tail)
                     assert len(blob) == 18, e['id']
-                    at = self.append(blob + b'\0', align=1)
+                    at = self.append(blob + b'\0')
                     for s in e['slots']:
                         self.patch32(int(s, 16), at | T.ROMBASE)
                     self.stats['en'] += 1
@@ -189,7 +189,7 @@ class Builder:
             except Fit as ex:
                 self.errors.append(str(ex))
                 continue
-            at = self.append(blob + b'\0', align=1)
+            at = self.append(blob + b'\0')
             for s in e['slots']:
                 self.patch32(int(s, 16), at | T.ROMBASE)
                 self.slots.append((s, '%X' % at))
@@ -219,7 +219,7 @@ class Builder:
                 continue
             ptrs = bytearray()
             for ln in lines:
-                at = self.append(self.enc_lines([ln], pad) + b'\0', align=1)
+                at = self.append(self.enc_lines([ln], pad) + b'\0')
                 ptrs += struct.pack('<I', at | T.ROMBASE)
             arr = self.append(bytes(ptrs))
             self.patch32(e['table'], arr | T.ROMBASE)
@@ -227,9 +227,11 @@ class Builder:
 
     # ---- party-member names (story placeholder σ...: renderer 0x0800C8F0, 12 cells, names table 0x0843B374) ----
     def build_members(self):
-        names = ['Recca,', 'Domon,', 'Fuko,', 'Mikagami,', 'Koganei,']   # trailing comma: the separator is cut
+        # trailing comma: the separator cell is cut; "Mikagami," fills its 3 cells exactly, so Koganei (always the
+        # name after it) gets a leading space; 4 names = 12 cells at most, the placeholder's width
+        names = ['Recca,', 'Domon,', 'Fuko,', 'Mikagami,', ' Koganei,']
         for k, n in enumerate(names):
-            at = self.append(self.enc_lines([n]) + b'\0', align=1)
+            at = self.append(self.enc_lines([n]) + b'\0')
             self.patch32(MEMBERS + 4 * k, at | T.ROMBASE)
         self.out[MEMBER_SEP:MEMBER_SEP + 2] = bytes.fromhex('09E0')   # beq -> b: no '・' cell between names
         self.ranges.append((MEMBER_SEP, MEMBER_SEP + 2))

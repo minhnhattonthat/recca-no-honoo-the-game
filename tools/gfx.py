@@ -309,10 +309,43 @@ def plates(out):
         yield data, data + size
 
 
+CONTINUE_BTN = 0x73D97C   # ASP0 32x32 8bpp "続きから" (story character select, table 0x468D08)
+
+
+def continue_button(out):
+    a = CONTINUE_BTN
+    assert out[a:a + 4] == b'ASP0'
+    data = a + 12
+    px = [[out[data + ((y // 8) * 4 + x // 8) * 64 + (y % 8) * 8 + x % 8] for x in range(32)] for y in range(32)]
+    for y in range(3, 29):
+        for x in range(3, 29):
+            px[y][x] = 0x1B
+    font = T.Font()
+    for text, top in (('Load', 4), ('Game', 16)):
+        rows, ink = T.strip(text, font)
+        x0 = 3 + (26 - ink) // 2
+        for r, v in enumerate(rows):
+            for dx in range(ink):
+                if v >> dx & 1:
+                    for oy in (-1, 0, 1):
+                        for ox in (-1, 0, 1):
+                            if px[top + r + oy][x0 + dx + ox] == 0x1B:
+                                px[top + r + oy][x0 + dx + ox] = 0x01
+        for r, v in enumerate(rows):
+            for dx in range(ink):
+                if v >> dx & 1:
+                    px[top + r][x0 + dx] = 0x5F
+    for y in range(32):
+        for x in range(32):
+            out[data + ((y // 8) * 4 + x // 8) * 64 + (y % 8) * 8 + x % 8] = px[y][x]
+    yield data, data + 1024
+
+
 def patch(out, append):
     """Apply every graphics redraw to the bytearray `out` (append(blob) -> offset for new data); returns the
     original-ROM (lo, hi) ranges written."""
-    return (list(intro(out)) + list(credits(out, append)) + list(end_card(out, append)) + list(labels(out)) + list(plates(out)))
+    return (list(intro(out)) + list(credits(out, append)) + list(end_card(out, append)) + list(labels(out)) + list(plates(out))
+            + list(continue_button(out)))
 
 
 def preview():
