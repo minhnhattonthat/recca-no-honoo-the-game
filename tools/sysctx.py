@@ -30,6 +30,7 @@ CTX = [
 
 # copied to RAM as 19 bytes and digits patched at bytes 13 and 17: 6-cell label + JP '０／３' tail, fixed
 DIGITS = {0x4BBB4, 0x4BBC8, 0x4BE04, 0x4BE18}
+GRID = {0x4E458, 0x4E480, 0x4E4A8}
 
 
 def main():
@@ -45,6 +46,8 @@ def main():
                 break
         else:
             e['ctx'] = 'misc'
+        if o in GRID:   # option-menu dialog: fills a 6-cell-wide box cell by cell (no line codes), 3 rows
+            e['layout'], e['max'], e['lines'] = 'grid', 6, 3
         if o in DIGITS:
             e['layout'] = 'digits'
             e['ctx'] += '; LABEL ONLY: keep the trailing ０／３ (or ０／１) exactly, the label before it max 6 cells'

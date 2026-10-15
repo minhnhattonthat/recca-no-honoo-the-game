@@ -183,6 +183,14 @@ class Builder:
                     self.stats['en'] += 1
                     continue
                 lines = self.fit(txt, max_cells, max_lines, e['id'])
+                if e.get('layout') == 'grid':    # box wraps every max_cells cells by itself: pad each row
+                    blob = b''.join(self.enc_lines([ln], [max_cells]) for ln in lines)
+                    blob += T.encode_jp('　') * (sum(cells) - len(blob) // 2)
+                    at = self.append(blob + b'\0')
+                    for s in e['slots']:
+                        self.patch32(int(s, 16), at | T.ROMBASE)
+                    self.stats['en'] += 1
+                    continue
                 lines += [''] * (len(cells) - len(lines))
                 blob =self.enc_lines(lines, pads).replace(b'%n', sep) if sep == b'\n' else self.enc_lines(lines, pads)
                 self.stats['en'] += 1

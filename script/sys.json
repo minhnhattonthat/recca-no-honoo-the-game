@@ -1382,9 +1382,12 @@
   "cells": [
    18
   ],
-  "en": "Failed to save the data.",
-  "status": "tl",
-  "ctx": "option menu help bar / dialog"
+  "en": "The data failed to save.",
+  "status": "reviewed",
+  "ctx": "option menu help bar / dialog",
+  "layout": "grid",
+  "max": 6,
+  "lines": 3
  },
  {
   "id": "sys_4E480",
@@ -1395,9 +1398,12 @@
   "cells": [
    18
   ],
-  "en": "Reset successful.",
-  "status": "tl",
-  "ctx": "option menu help bar / dialog"
+  "en": "The data was reset.",
+  "status": "reviewed",
+  "ctx": "option menu help bar / dialog",
+  "layout": "grid",
+  "max": 6,
+  "lines": 3
  },
  {
   "id": "sys_4E4A8",
@@ -1410,7 +1416,10 @@
   ],
   "en": "Really reset the data?",
   "status": "tl",
-  "ctx": "option menu help bar / dialog"
+  "ctx": "option menu help bar / dialog",
+  "layout": "grid",
+  "max": 6,
+  "lines": 3
  },
  {
   "id": "sys_4E4D0",
