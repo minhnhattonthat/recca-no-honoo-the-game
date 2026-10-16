@@ -27,7 +27,7 @@ What is translated
   - Full story mode script (all characters' stories, training chapter, Kurei's story, endings)
   - All menus, help bars, save panel, option dialogs, sound test names, database profiles
   - Graphics text: opening text crawl, staff roll, "THE END" card, database name list and buttons,
-    the "Continue" button; name plates respelled to the official English romanisation
+    the "Continue" button, chapter title cards, episode-clear "Continue" / "Quit" buttons; name plates respelled to the official English romanisation
     (Kurei, Fuko, Koku, Kukai, Kagero, Saicho).
   - English uses a variable-width font built into the patch.
   - Names follow the official English (Viz) "Flame of Recca" spellings, given name first, no honorifics.
@@ -41,6 +41,11 @@ Known issues
   - Link-cable (two GBA) screens were not tested on hardware.
 
 Tested in MesenCE 2.2.1 (GBA, with BIOS).
+
+History
+  v1.1  Chapter title cards and the episode-clear buttons translated (were still Japanese in v1.0);
+        episode 6 title in full ("Ura Uruha's Deadliest Man").
+  v1.0  First release.
 
 Credits
   Translation, hacking and tools: produced with AI assistance (Claude, Anthropic) for this patch.

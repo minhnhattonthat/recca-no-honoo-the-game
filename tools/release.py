@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'tools'))
 import textlib as T  # noqa: E402
 
-VERSION = '1.0'
+VERSION = '1.1'
 REL = ROOT / 'release'
 PATCH = f'Recca_no_Honoo_The_Game_EN_v{VERSION}.bps'
 PY = [sys.executable, '-X', 'utf8']

@@ -223,7 +223,9 @@ DB_NAMES = ['Recca Hanabishi', 'Domon Ishijima', 'Fuko Kirisawa', 'Tokiya Mikaga
             'Tsukishiro', 'Gashakura']
 LABELS = ([(0x72ED64 + 0x30C * k, n, 4, 2, (2, 13), (2, 86)) for k, n in enumerate(DB_NAMES)] +
           [(0x733CC8, 'Profile', None, 1, (2, 9), (2, 60)), (0x733ED4, 'Move List', None, 1, (2, 9), (2, 60)),
-           (0x7340E0, 'Results', None, 1, (2, 9), (2, 60)), (0x7342EC, 'Back', None, 1, (2, 9), (2, 60))])
+           (0x7340E0, 'Results', None, 1, (2, 9), (2, 60)), (0x7342EC, 'Back', None, 1, (2, 9), (2, 60)),
+           # episode-clear STATUS screen buttons 進む / 終わる (code 0x33B1C / 0x33B54)
+           (0x769890, 'Continue', None, 3, (2, 13), (2, 61)), (0x769A9C, 'Quit', None, 3, (2, 13), (2, 61))])
 
 
 def asp_pixels(out, a):
@@ -341,11 +343,49 @@ def continue_button(out):
     yield data, data + 1024
 
 
+# Chapter cards (story `title` command): ABG0 8bpp images, 第N話 table 0x4687B4 (9) and 「title」 table 0x4687D8 (28).
+# Header: u8 width/2, u16 height*2, flags 0x08 = 32-byte palette (0 clear, 1 white, 2 outline); map (width//8) x
+# (height//8) u16. Text comes from the save-panel strings in sys.json (same order: tables 0x468DA8 / 0x468DCC).
+CARD_TABLES = [(0x4687B4, 0x468DA8, 9), (0x4687D8, 0x468DCC, 28)]
+
+
+def card_tiles(px):
+    """Pixel rows -> (8bpp tile bytes, u16 map), tile 0 blank, duplicates merged."""
+    tiles, index, mp = [bytes(64)], {bytes(64): 0}, []
+    for ty in range(len(px) // 8):
+        for tx in range(len(px[0]) // 8):
+            t = bytes(px[ty * 8 + r][tx * 8 + c] for r in range(8) for c in range(8))
+            if t not in index:
+                index[t] = len(tiles)
+                tiles.append(t)
+            mp.append(index[t])
+    return b''.join(tiles), mp
+
+
+def chapter_cards(out, append):
+    import json
+    en = {e['id']: e['en'] for e in json.loads((T.ROOT / 'script' / 'sys.json').read_text(encoding='utf-8'))}
+    orig = T.rom()
+    font = T.Font()
+    for table, strings, n in CARD_TABLES:
+        for k in range(n):
+            p = T.u32(out, table + 4 * k) - T.ROMBASE
+            assert out[p:p + 4] == b'ABG0' and out[p + 7] == 8, hex(p)
+            w, h = out[p + 4] * 2 // 8 * 8, T.u16(out, p + 5) // 2
+            text = en['sys_%05X' % (T.u32(orig, strings + 4 * k) - T.ROMBASE)]
+            tiles, mp = card_tiles(text_bitmap(text, w, h, fill=1, outline=2, font=font, top=(h - 11) // 2))
+            assert len(tiles) <= T.u32(out, p + 8), f'card {hex(p)} {text!r}: {len(tiles) // 64} tiles > original'
+            at = append(bytes(out[p:p + 8]) + struct.pack('<I', len(tiles)) + out[p + 12:p + 44] + tiles
+                        + struct.pack(f'<{len(mp)}H', *mp))
+            struct.pack_into('<I', out, table + 4 * k, at | T.ROMBASE)
+            yield table + 4 * k, table + 4 * k + 4
+
+
 def patch(out, append):
     """Apply every graphics redraw to the bytearray `out` (append(blob) -> offset for new data); returns the
     original-ROM (lo, hi) ranges written."""
     return (list(intro(out)) + list(credits(out, append)) + list(end_card(out, append)) + list(labels(out)) + list(plates(out))
-            + list(continue_button(out)))
+            + list(continue_button(out)) + list(chapter_cards(out, append)))
 
 
 def preview():
