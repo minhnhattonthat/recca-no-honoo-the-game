@@ -7,6 +7,9 @@ and tools that build the patch.
 your own dump, `Recca no Honoo - The Game (Japan).gba` (8,388,608 bytes, CRC32 B29BEE34). The release README lists the
 hashes, patching steps and known issues. The patched ROM is larger than the original; that is expected.
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 ## What is translated
 - The full story mode script: every character's story, the training chapter, Kurei's story and the endings.
 - All menus, help bars, the save panel, option dialogs, sound test names and database profiles.

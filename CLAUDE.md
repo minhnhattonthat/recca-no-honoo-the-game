@@ -18,6 +18,7 @@ Skill: translate-retro-game (H:\translation\batch\.claude\skills\translate-retro
 - Edit source files only with the file-edit tool. Full names, no abbreviations (engine work first). Honorifics dropped; given name first. Romanization: Viz/official English > Hepburn, no macrons. Credits in English. Graphics text in scope (title kanji logo kept: carries the English title).
 - Never push/publish/upload. Release = local `release/recca-no-honoo-the-game_en.zip` (patch + README).
 - Engine gotchas: English = build-time VWF cells (private 2-byte codes, leads 0x85-87/A0-DF/F0-FF, font hook at 0x0800C6CC); widgets pad to the JP cell count; relocated strings must stay 4-byte aligned (ldm copies); save-panel digit labels are fixed 6 cells; option dialogs fill a 6-cell grid.
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Status
 - Done: all phases 0-9; v1.0 released locally (release/recca-no-honoo-the-game_en.zip). Next: optional Minor polish from reviews (docs/ notes), hardware/link-cable test. Open bugs: none known.
