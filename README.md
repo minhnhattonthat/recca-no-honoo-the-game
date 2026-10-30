@@ -10,13 +10,22 @@ hashes, patching steps and known issues. The patched ROM is larger than the orig
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
-## What is translated
-- The full story mode script: every character's story, the training chapter, Kurei's story and the endings.
-- All menus, help bars, the save panel, option dialogs, sound test names and database profiles.
-- Graphics text: the opening text crawl, staff roll, "THE END" card, database name list and buttons, chapter title
-  cards and buttons; name plates use the official English romanisation.
-- Names follow the official English (Viz) *Flame of Recca* spellings, given name first, no honorifics.
-- The title logo keeps its Japanese kanji (it already carries the English title).
+## Translation status
+
+| Part | Status |
+|---|---|
+| Story mode: every character's story, the training chapter, Kurei's story, endings | Translated |
+| Menus, help bars, save panel, option dialogs, sound test names | Translated |
+| Database profiles, name list and buttons | Translated |
+| Opening text crawl, chapter title cards, episode-clear buttons, name plates | Translated |
+| Title screen | Title logo kept in Japanese (series logo; it already carries the English title) |
+| Staff roll and "THE END" card | Translated (staff names romanised from kanji; some readings may differ) |
+| Link-cable (two GBA) screens | Not checked in play |
+
+Names follow the official English (Viz) *Flame of Recca* spellings, given name first, no honorifics.
+
+Known issues: the save-panel label for super special moves is shortened to "Super Specials" (6-character slot); full
+list in the release README.
 
 ## Building from source
 You need your own ROM under `rom/` (gitignored). See `CLAUDE.md` for the commands (`python -X utf8 build.py build`,
